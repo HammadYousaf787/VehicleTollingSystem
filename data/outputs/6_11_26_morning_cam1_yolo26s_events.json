@@ -1,0 +1,810 @@
+{
+  "camera_id": "cam1",
+  "camera_type": "passageway",
+  "video": "data/videos/6_11_26_morning_cam1.mp4",
+  "config": "cameraConfigs/cam1.json",
+  "model": "yolo26s",
+  "fps": 15.002093315346327,
+  "frames_processed": 4515,
+  "processing_time_s": 1511.7,
+  "settings": {
+    "conf": 0.35,
+    "imgsz": 640,
+    "tracker": "bytetrack.yaml",
+    "point_mode": "bottom",
+    "sample_every_s": 0.2,
+    "finalize_after_s": 1.5,
+    "min_disp_px": 73.8,
+    "min_cos": 0.5,
+    "order_split": 0.5,
+    "stitch_dist_px": 173.4
+  },
+  "counts": {
+    "entry": 0,
+    "exit": 0
+  },
+  "events": [],
+  "ignored_tracks": [
+    {
+      "track_ids": [
+        3
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 2.0,
+      "last_seen_s": 2.13,
+      "duration_s": 0.13,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        2
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 0.13,
+      "last_seen_s": 2.53,
+      "duration_s": 2.4,
+      "num_samples": 8,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        6
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 12.13,
+      "last_seen_s": 18.33,
+      "duration_s": 6.2,
+      "num_samples": 24,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        7
+      ],
+      "class": "car",
+      "first_seen_s": 26.13,
+      "last_seen_s": 27.86,
+      "duration_s": 1.73,
+      "num_samples": 9,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        14
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 32.26,
+      "last_seen_s": 32.93,
+      "duration_s": 0.67,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        14,
+        15
+      ],
+      "class": "car",
+      "first_seen_s": 35.0,
+      "last_seen_s": 38.39,
+      "duration_s": 3.4,
+      "num_samples": 14,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        18
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 42.06,
+      "last_seen_s": 42.93,
+      "duration_s": 0.87,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        18
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 44.99,
+      "last_seen_s": 45.93,
+      "duration_s": 0.93,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        18
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 47.99,
+      "last_seen_s": 48.59,
+      "duration_s": 0.6,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        19
+      ],
+      "class": "car",
+      "first_seen_s": 48.86,
+      "last_seen_s": 48.86,
+      "duration_s": 0.0,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        1
+      ],
+      "class": "car",
+      "first_seen_s": 0.0,
+      "last_seen_s": 49.66,
+      "duration_s": 49.66,
+      "num_samples": 249,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        22
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 52.06,
+      "last_seen_s": 52.93,
+      "duration_s": 0.87,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        28
+      ],
+      "class": "car",
+      "first_seen_s": 54.66,
+      "last_seen_s": 55.79,
+      "duration_s": 1.13,
+      "num_samples": 6,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        21
+      ],
+      "class": "car",
+      "first_seen_s": 50.73,
+      "last_seen_s": 55.93,
+      "duration_s": 5.2,
+      "num_samples": 15,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        30
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 59.06,
+      "last_seen_s": 59.66,
+      "duration_s": 0.6,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    },
+    {
+      "track_ids": [
+        31
+      ],
+      "class": "car",
+      "first_seen_s": 61.39,
+      "last_seen_s": 62.72,
+      "duration_s": 1.33,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        36
+      ],
+      "class": "car",
+      "first_seen_s": 64.66,
+      "last_seen_s": 66.12,
+      "duration_s": 1.47,
+      "num_samples": 8,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        30,
+        33,
+        35,
+        38
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 61.79,
+      "last_seen_s": 73.19,
+      "duration_s": 11.4,
+      "num_samples": 32,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        41
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 72.72,
+      "last_seen_s": 73.39,
+      "duration_s": 0.67,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        30
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 74.92,
+      "last_seen_s": 75.32,
+      "duration_s": 0.4,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        47,
+        49,
+        50
+      ],
+      "class": "car",
+      "first_seen_s": 75.39,
+      "last_seen_s": 76.92,
+      "duration_s": 1.53,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        30
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 77.32,
+      "last_seen_s": 84.92,
+      "duration_s": 7.6,
+      "num_samples": 26,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        54
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 87.32,
+      "last_seen_s": 87.45,
+      "duration_s": 0.13,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        57
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 91.45,
+      "last_seen_s": 93.72,
+      "duration_s": 2.27,
+      "num_samples": 12,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        59,
+        60
+      ],
+      "class": "car",
+      "first_seen_s": 102.59,
+      "last_seen_s": 103.72,
+      "duration_s": 1.13,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        65
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 104.52,
+      "last_seen_s": 105.32,
+      "duration_s": 0.8,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        70,
+        76
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 107.39,
+      "last_seen_s": 108.32,
+      "duration_s": 0.93,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    },
+    {
+      "track_ids": [
+        79
+      ],
+      "class": "car",
+      "first_seen_s": 113.32,
+      "last_seen_s": 113.78,
+      "duration_s": 0.47,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    },
+    {
+      "track_ids": [
+        78
+      ],
+      "class": "car",
+      "first_seen_s": 112.92,
+      "last_seen_s": 114.58,
+      "duration_s": 1.67,
+      "num_samples": 9,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        82
+      ],
+      "class": "car",
+      "first_seen_s": 117.65,
+      "last_seen_s": 117.78,
+      "duration_s": 0.13,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        83
+      ],
+      "class": "truck",
+      "first_seen_s": 117.72,
+      "last_seen_s": 118.78,
+      "duration_s": 1.07,
+      "num_samples": 6,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        88
+      ],
+      "class": "car",
+      "first_seen_s": 124.72,
+      "last_seen_s": 125.58,
+      "duration_s": 0.87,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        90
+      ],
+      "class": "car",
+      "first_seen_s": 124.85,
+      "last_seen_s": 127.05,
+      "duration_s": 2.2,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        93
+      ],
+      "class": "car",
+      "first_seen_s": 125.65,
+      "last_seen_s": 128.12,
+      "duration_s": 2.47,
+      "num_samples": 12,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        104,
+        106
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 135.51,
+      "last_seen_s": 135.71,
+      "duration_s": 0.2,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        99
+      ],
+      "class": "car",
+      "first_seen_s": 134.38,
+      "last_seen_s": 135.98,
+      "duration_s": 1.6,
+      "num_samples": 9,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        107
+      ],
+      "class": "car",
+      "first_seen_s": 138.65,
+      "last_seen_s": 139.91,
+      "duration_s": 1.27,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        110
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 146.51,
+      "last_seen_s": 146.58,
+      "duration_s": 0.07,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        116,
+        118
+      ],
+      "class": "car",
+      "first_seen_s": 147.71,
+      "last_seen_s": 147.98,
+      "duration_s": 0.27,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        124
+      ],
+      "class": "car",
+      "first_seen_s": 160.31,
+      "last_seen_s": 161.38,
+      "duration_s": 1.07,
+      "num_samples": 6,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        126,
+        128
+      ],
+      "class": "car",
+      "first_seen_s": 161.11,
+      "last_seen_s": 161.78,
+      "duration_s": 0.67,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    },
+    {
+      "track_ids": [
+        130
+      ],
+      "class": "car",
+      "first_seen_s": 161.51,
+      "last_seen_s": 162.71,
+      "duration_s": 1.2,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        133
+      ],
+      "class": "car",
+      "first_seen_s": 165.04,
+      "last_seen_s": 165.91,
+      "duration_s": 0.87,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        132
+      ],
+      "class": "car",
+      "first_seen_s": 164.71,
+      "last_seen_s": 165.98,
+      "duration_s": 1.27,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        134
+      ],
+      "class": "car",
+      "first_seen_s": 183.37,
+      "last_seen_s": 184.71,
+      "duration_s": 1.33,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        137
+      ],
+      "class": "car",
+      "first_seen_s": 195.37,
+      "last_seen_s": 196.17,
+      "duration_s": 0.8,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        139
+      ],
+      "class": "car",
+      "first_seen_s": 200.84,
+      "last_seen_s": 201.77,
+      "duration_s": 0.93,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        146
+      ],
+      "class": "car",
+      "first_seen_s": 202.04,
+      "last_seen_s": 203.77,
+      "duration_s": 1.73,
+      "num_samples": 9,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        140,
+        145
+      ],
+      "class": "car",
+      "first_seen_s": 200.84,
+      "last_seen_s": 204.64,
+      "duration_s": 3.8,
+      "num_samples": 6,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        148
+      ],
+      "class": "car",
+      "first_seen_s": 203.44,
+      "last_seen_s": 204.7,
+      "duration_s": 1.27,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        155
+      ],
+      "class": "car",
+      "first_seen_s": 206.44,
+      "last_seen_s": 207.3,
+      "duration_s": 0.87,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        157,
+        163,
+        168
+      ],
+      "class": "car",
+      "first_seen_s": 219.1,
+      "last_seen_s": 221.7,
+      "duration_s": 2.6,
+      "num_samples": 8,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        170,
+        172
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 229.1,
+      "last_seen_s": 230.57,
+      "duration_s": 1.47,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        178,
+        181,
+        185
+      ],
+      "class": "car",
+      "first_seen_s": 230.1,
+      "last_seen_s": 232.37,
+      "duration_s": 2.27,
+      "num_samples": 8,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        187
+      ],
+      "class": "car",
+      "first_seen_s": 234.43,
+      "last_seen_s": 235.3,
+      "duration_s": 0.87,
+      "num_samples": 5,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        188,
+        190
+      ],
+      "class": "car",
+      "first_seen_s": 234.43,
+      "last_seen_s": 237.23,
+      "duration_s": 2.8,
+      "num_samples": 11,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        197
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 246.5,
+      "last_seen_s": 246.5,
+      "duration_s": 0.0,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        200
+      ],
+      "class": "car",
+      "first_seen_s": 251.23,
+      "last_seen_s": 252.56,
+      "duration_s": 1.33,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        212
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 267.1,
+      "last_seen_s": 267.96,
+      "duration_s": 0.87,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    },
+    {
+      "track_ids": [
+        213
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 267.1,
+      "last_seen_s": 268.16,
+      "duration_s": 1.07,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        221
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 275.03,
+      "last_seen_s": 276.49,
+      "duration_s": 1.47,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        231,
+        235,
+        237
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 281.49,
+      "last_seen_s": 282.63,
+      "duration_s": 1.13,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        238
+      ],
+      "class": "car",
+      "first_seen_s": 288.49,
+      "last_seen_s": 289.76,
+      "duration_s": 1.27,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        239,
+        241
+      ],
+      "class": "car",
+      "first_seen_s": 288.49,
+      "last_seen_s": 290.09,
+      "duration_s": 1.6,
+      "num_samples": 4,
+      "reason": "too few samples (4)"
+    },
+    {
+      "track_ids": [
+        240,
+        244
+      ],
+      "class": "car",
+      "first_seen_s": 289.69,
+      "last_seen_s": 291.76,
+      "duration_s": 2.07,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        245
+      ],
+      "class": "car",
+      "first_seen_s": 291.63,
+      "last_seen_s": 292.89,
+      "duration_s": 1.27,
+      "num_samples": 7,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        246
+      ],
+      "class": "car",
+      "first_seen_s": 292.63,
+      "last_seen_s": 293.09,
+      "duration_s": 0.47,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        247
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 293.89,
+      "last_seen_s": 293.89,
+      "duration_s": 0.0,
+      "num_samples": 1,
+      "reason": "too few samples (1)"
+    },
+    {
+      "track_ids": [
+        252
+      ],
+      "class": "motorcycle",
+      "first_seen_s": 299.09,
+      "last_seen_s": 299.42,
+      "duration_s": 0.33,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    }
+  ]
+}

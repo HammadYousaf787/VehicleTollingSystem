@@ -1,0 +1,111 @@
+{
+  "camera_id": "cam1",
+  "camera_type": "passageway",
+  "video": "data/videos/6_11_26_morning_cam1_test_0033-0200.mp4",
+  "config": "cameraConfigs/cam1.json",
+  "model": "yolo26s",
+  "fps": 15.0,
+  "frames_processed": 1306,
+  "processing_time_s": 383.7,
+  "crop": {
+    "x1": 0,
+    "y1": 376,
+    "x2": 909,
+    "y2": 1080,
+    "size": [
+      909,
+      704
+    ]
+  },
+  "coordinate_space": "crop (add crop x1/y1 to get full-frame pixels)",
+  "settings": {
+    "conf": 0.1,
+    "imgsz": 640,
+    "point_mode": "bottom",
+    "output_view": "crop",
+    "tracker": "tracker_type: bytetrack\ntrack_high_thresh: 0.3\ntrack_low_thresh: 0.1\nnew_track_thresh: 0.4\ntrack_buffer: 45\nmatch_thresh: 0.85\nfuse_score: True\n",
+    "coast_s": 1.0,
+    "edge_finalize_s": 0.7,
+    "finalize_after_s": 3.0,
+    "sample_every_s": 0.2,
+    "min_disp_px": 72.4,
+    "min_cos": 0.5,
+    "order_split": 0.5,
+    "stitch_dist_px": 172.5,
+    "dedup_s": 5.0,
+    "dedup_dist_px": 172.5
+  },
+  "counts": {
+    "entry": 0,
+    "exit": 0
+  },
+  "events": [],
+  "ignored_tracks": [
+    {
+      "track_ids": [
+        1
+      ],
+      "class": "car",
+      "first_seen_s": 0.0,
+      "last_seen_s": 16.53,
+      "duration_s": 16.53,
+      "num_samples": 83,
+      "reason": "never entered the gate zone"
+    },
+    {
+      "track_ids": [
+        2
+      ],
+      "class": "bus",
+      "first_seen_s": 16.53,
+      "last_seen_s": 16.93,
+      "duration_s": 0.4,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        2
+      ],
+      "class": "car",
+      "first_seen_s": 18.07,
+      "last_seen_s": 21.0,
+      "duration_s": 2.93,
+      "num_samples": 15,
+      "reason": "moved too little (43px < 72px)"
+    },
+    {
+      "track_ids": [
+        3
+      ],
+      "class": "car",
+      "first_seen_s": 22.73,
+      "last_seen_s": 23.0,
+      "duration_s": 0.27,
+      "num_samples": 2,
+      "reason": "too few samples (2)"
+    },
+    {
+      "track_ids": [
+        6
+      ],
+      "class": "car",
+      "first_seen_s": 31.67,
+      "last_seen_s": 32.13,
+      "duration_s": 0.47,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    },
+    {
+      "track_ids": [
+        8
+      ],
+      "class": "car",
+      "first_seen_s": 79.93,
+      "last_seen_s": 80.4,
+      "duration_s": 0.47,
+      "num_samples": 3,
+      "reason": "too few samples (3)"
+    }
+  ]
+}
