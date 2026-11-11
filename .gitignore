@@ -32,3 +32,6 @@ __pycache__/
 .venv/
 venv/
 .env
+
+# ---------- Plate test outputs: crop images (JSON summaries and PNG figures are kept) ----------
+data/outputs/plate_tests/**/*.jpg

@@ -1,0 +1,146 @@
+{
+  "camera_id": "cam1",
+  "video": "data/videos/6_11_26_night_cam1_test_0100-0300.mp4",
+  "model": "yolo26s",
+  "crop": [
+    0,
+    376,
+    909,
+    1080
+  ],
+  "settings": {
+    "conf": 0.1,
+    "track_high_thresh": 0.3,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.4,
+    "match_thresh": 0.85,
+    "track_buffer_s": 3.0,
+    "imgsz": 640
+  },
+  "summary": {
+    "frames": 1802,
+    "processing_fps": 2.45,
+    "unique_track_ids": 8,
+    "ids_by_class": {
+      "car": 1,
+      "bus": 5,
+      "person": 2
+    },
+    "short_tracks": 4,
+    "frames_with_detections_pct": 47.6,
+    "mean_track_conf": 0.522,
+    "mean_detected_ratio": 0.957,
+    "mean_brightness": 97.5
+  },
+  "tracks": [
+    {
+      "id": 1,
+      "class": "car",
+      "class_counts": {
+        "car": 784,
+        "bus": 24,
+        "truck": 18
+      },
+      "first_seen_s": 0.07,
+      "last_seen_s": 65.87,
+      "duration_s": 65.87,
+      "frames_detected": 826,
+      "detected_ratio": 0.836,
+      "mean_conf": 0.631
+    },
+    {
+      "id": 2,
+      "class": "bus",
+      "class_counts": {
+        "truck": 12,
+        "bus": 15
+      },
+      "first_seen_s": 1.27,
+      "last_seen_s": 3.0,
+      "duration_s": 1.8,
+      "frames_detected": 27,
+      "detected_ratio": 1.0,
+      "mean_conf": 0.373
+    },
+    {
+      "id": 4,
+      "class": "bus",
+      "class_counts": {
+        "car": 1,
+        "bus": 2
+      },
+      "first_seen_s": 18.13,
+      "last_seen_s": 18.27,
+      "duration_s": 0.2,
+      "frames_detected": 3,
+      "detected_ratio": 1.0,
+      "mean_conf": 0.434
+    },
+    {
+      "id": 5,
+      "class": "bus",
+      "class_counts": {
+        "bus": 6
+      },
+      "first_seen_s": 18.67,
+      "last_seen_s": 19.0,
+      "duration_s": 0.4,
+      "frames_detected": 6,
+      "detected_ratio": 1.0,
+      "mean_conf": 0.45
+    },
+    {
+      "id": 7,
+      "class": "bus",
+      "class_counts": {
+        "bus": 1,
+        "car": 1
+      },
+      "first_seen_s": 24.67,
+      "last_seen_s": 24.73,
+      "duration_s": 0.13,
+      "frames_detected": 2,
+      "detected_ratio": 1.0,
+      "mean_conf": 0.519
+    },
+    {
+      "id": 8,
+      "class": "person",
+      "class_counts": {
+        "person": 101
+      },
+      "first_seen_s": 29.2,
+      "last_seen_s": 36.93,
+      "duration_s": 7.8,
+      "frames_detected": 101,
+      "detected_ratio": 0.863,
+      "mean_conf": 0.685
+    },
+    {
+      "id": 9,
+      "class": "bus",
+      "class_counts": {
+        "bus": 2
+      },
+      "first_seen_s": 31.67,
+      "last_seen_s": 31.73,
+      "duration_s": 0.13,
+      "frames_detected": 2,
+      "detected_ratio": 1.0,
+      "mean_conf": 0.535
+    },
+    {
+      "id": 13,
+      "class": "person",
+      "class_counts": {
+        "person": 72
+      },
+      "first_seen_s": 49.33,
+      "last_seen_s": 54.27,
+      "duration_s": 5.0,
+      "frames_detected": 72,
+      "detected_ratio": 0.96,
+      "mean_conf": 0.546
+    }
+  ]
+}

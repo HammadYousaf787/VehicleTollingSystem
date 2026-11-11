@@ -1,0 +1,6521 @@
+{
+  "camera_id": "cam1",
+  "video": "data/videos/6_11_26_morning_cam1_test_0033-0200.mp4",
+  "vehicle_model": "yolo26s",
+  "fps": 15.0,
+  "frame_size": [
+    960,
+    1080
+  ],
+  "frames": 1306,
+  "settings": {
+    "use_config_crop": true,
+    "detect_area": [
+      0,
+      376,
+      909,
+      1080
+    ],
+    "conf": 0.1,
+    "save_min_conf": 0.3,
+    "dup_iou": 0.7,
+    "save_every_n": 1,
+    "min_vehicle_px": 60,
+    "pad_frac": 0.1,
+    "imgsz": 640
+  },
+  "stage_seconds": 247.6,
+  "frames_with_vehicles": 309,
+  "vehicle_tracks": 5,
+  "detections": [
+    {
+      "stem": "f00001_id001_car",
+      "file": "vehicle_detections/f00001_id001_car.jpg",
+      "frame": 1,
+      "time_s": 0.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        432.0,
+        376.3,
+        766.4,
+        839.3
+      ],
+      "crop_frame": [
+        398,
+        329,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00002_id001_car",
+      "file": "vehicle_detections/f00002_id001_car.jpg",
+      "frame": 2,
+      "time_s": 0.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        431.7,
+        376.3,
+        766.7,
+        840.1
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        886
+      ]
+    },
+    {
+      "stem": "f00003_id001_car",
+      "file": "vehicle_detections/f00003_id001_car.jpg",
+      "frame": 3,
+      "time_s": 0.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.91,
+      "box_frame": [
+        431.6,
+        376.3,
+        766.9,
+        840.6
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        887
+      ]
+    },
+    {
+      "stem": "f00004_id001_car",
+      "file": "vehicle_detections/f00004_id001_car.jpg",
+      "frame": 4,
+      "time_s": 0.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.91,
+      "box_frame": [
+        431.6,
+        376.3,
+        766.8,
+        840.5
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        886
+      ]
+    },
+    {
+      "stem": "f00005_id001_car",
+      "file": "vehicle_detections/f00005_id001_car.jpg",
+      "frame": 5,
+      "time_s": 0.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        431.8,
+        376.3,
+        766.6,
+        839.9
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        886
+      ]
+    },
+    {
+      "stem": "f00006_id001_car",
+      "file": "vehicle_detections/f00006_id001_car.jpg",
+      "frame": 6,
+      "time_s": 0.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.91,
+      "box_frame": [
+        431.9,
+        376.3,
+        766.5,
+        839.8
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        886
+      ]
+    },
+    {
+      "stem": "f00007_id001_car",
+      "file": "vehicle_detections/f00007_id001_car.jpg",
+      "frame": 7,
+      "time_s": 0.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.91,
+      "box_frame": [
+        432.0,
+        376.3,
+        766.5,
+        839.5
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00008_id001_car",
+      "file": "vehicle_detections/f00008_id001_car.jpg",
+      "frame": 8,
+      "time_s": 0.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        432.0,
+        376.4,
+        766.4,
+        839.4
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00009_id001_car",
+      "file": "vehicle_detections/f00009_id001_car.jpg",
+      "frame": 9,
+      "time_s": 0.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        432.1,
+        376.3,
+        766.4,
+        839.3
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00010_id001_car",
+      "file": "vehicle_detections/f00010_id001_car.jpg",
+      "frame": 10,
+      "time_s": 0.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        432.2,
+        376.3,
+        766.4,
+        839.2
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00011_id001_car",
+      "file": "vehicle_detections/f00011_id001_car.jpg",
+      "frame": 11,
+      "time_s": 0.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        432.2,
+        376.3,
+        766.3,
+        839.0
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00012_id001_car",
+      "file": "vehicle_detections/f00012_id001_car.jpg",
+      "frame": 12,
+      "time_s": 0.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        432.2,
+        376.3,
+        766.4,
+        839.2
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        885
+      ]
+    },
+    {
+      "stem": "f00013_id001_car",
+      "file": "vehicle_detections/f00013_id001_car.jpg",
+      "frame": 13,
+      "time_s": 0.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        432.0,
+        376.3,
+        766.5,
+        839.7
+      ],
+      "crop_frame": [
+        398,
+        329,
+        799,
+        886
+      ]
+    },
+    {
+      "stem": "f00014_id001_car",
+      "file": "vehicle_detections/f00014_id001_car.jpg",
+      "frame": 14,
+      "time_s": 0.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        431.9,
+        376.3,
+        766.6,
+        840.1
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        886
+      ]
+    },
+    {
+      "stem": "f00015_id001_car",
+      "file": "vehicle_detections/f00015_id001_car.jpg",
+      "frame": 15,
+      "time_s": 1.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.91,
+      "box_frame": [
+        431.5,
+        376.1,
+        766.6,
+        840.4
+      ],
+      "crop_frame": [
+        397,
+        329,
+        800,
+        886
+      ]
+    },
+    {
+      "stem": "f00016_id001_car",
+      "file": "vehicle_detections/f00016_id001_car.jpg",
+      "frame": 16,
+      "time_s": 1.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.4,
+        376.0,
+        768.2,
+        841.0
+      ],
+      "crop_frame": [
+        398,
+        329,
+        801,
+        887
+      ]
+    },
+    {
+      "stem": "f00017_id001_car",
+      "file": "vehicle_detections/f00017_id001_car.jpg",
+      "frame": 17,
+      "time_s": 1.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.7,
+        376.0,
+        768.9,
+        841.1
+      ],
+      "crop_frame": [
+        399,
+        329,
+        802,
+        887
+      ]
+    },
+    {
+      "stem": "f00018_id001_car",
+      "file": "vehicle_detections/f00018_id001_car.jpg",
+      "frame": 18,
+      "time_s": 1.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.8,
+        376.0,
+        769.2,
+        841.3
+      ],
+      "crop_frame": [
+        399,
+        329,
+        802,
+        887
+      ]
+    },
+    {
+      "stem": "f00019_id001_car",
+      "file": "vehicle_detections/f00019_id001_car.jpg",
+      "frame": 19,
+      "time_s": 1.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.8,
+        376.0,
+        769.4,
+        841.2
+      ],
+      "crop_frame": [
+        399,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00020_id001_car",
+      "file": "vehicle_detections/f00020_id001_car.jpg",
+      "frame": 20,
+      "time_s": 1.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        432.7,
+        376.0,
+        769.5,
+        841.3
+      ],
+      "crop_frame": [
+        399,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00021_id001_car",
+      "file": "vehicle_detections/f00021_id001_car.jpg",
+      "frame": 21,
+      "time_s": 1.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        432.7,
+        376.0,
+        769.6,
+        841.3
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00022_id001_car",
+      "file": "vehicle_detections/f00022_id001_car.jpg",
+      "frame": 22,
+      "time_s": 1.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        433.1,
+        376.3,
+        769.8,
+        841.1
+      ],
+      "crop_frame": [
+        399,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00023_id001_car",
+      "file": "vehicle_detections/f00023_id001_car.jpg",
+      "frame": 23,
+      "time_s": 1.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.8,
+        376.1,
+        769.7,
+        840.9
+      ],
+      "crop_frame": [
+        399,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00024_id001_car",
+      "file": "vehicle_detections/f00024_id001_car.jpg",
+      "frame": 24,
+      "time_s": 1.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.8,
+        376.0,
+        769.6,
+        840.6
+      ],
+      "crop_frame": [
+        399,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00025_id001_car",
+      "file": "vehicle_detections/f00025_id001_car.jpg",
+      "frame": 25,
+      "time_s": 1.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        432.5,
+        376.0,
+        769.6,
+        840.8
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00026_id001_car",
+      "file": "vehicle_detections/f00026_id001_car.jpg",
+      "frame": 26,
+      "time_s": 1.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        432.5,
+        376.0,
+        769.7,
+        840.8
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00027_id001_car",
+      "file": "vehicle_detections/f00027_id001_car.jpg",
+      "frame": 27,
+      "time_s": 1.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        432.3,
+        376.0,
+        769.7,
+        841.1
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00028_id001_car",
+      "file": "vehicle_detections/f00028_id001_car.jpg",
+      "frame": 28,
+      "time_s": 1.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        432.3,
+        376.0,
+        769.7,
+        841.0
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00029_id001_car",
+      "file": "vehicle_detections/f00029_id001_car.jpg",
+      "frame": 29,
+      "time_s": 1.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.3,
+        376.0,
+        769.7,
+        840.9
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00030_id001_car",
+      "file": "vehicle_detections/f00030_id001_car.jpg",
+      "frame": 30,
+      "time_s": 2.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.5,
+        376.0,
+        769.9,
+        840.9
+      ],
+      "crop_frame": [
+        398,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00031_id001_car",
+      "file": "vehicle_detections/f00031_id001_car.jpg",
+      "frame": 31,
+      "time_s": 2.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        431.5,
+        376.0,
+        768.3,
+        840.1
+      ],
+      "crop_frame": [
+        397,
+        329,
+        801,
+        886
+      ]
+    },
+    {
+      "stem": "f00032_id001_car",
+      "file": "vehicle_detections/f00032_id001_car.jpg",
+      "frame": 32,
+      "time_s": 2.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        431.3,
+        376.0,
+        767.4,
+        839.1
+      ],
+      "crop_frame": [
+        397,
+        329,
+        801,
+        885
+      ]
+    },
+    {
+      "stem": "f00033_id001_car",
+      "file": "vehicle_detections/f00033_id001_car.jpg",
+      "frame": 33,
+      "time_s": 2.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.5,
+        376.0,
+        766.8,
+        838.0
+      ],
+      "crop_frame": [
+        397,
+        329,
+        800,
+        884
+      ]
+    },
+    {
+      "stem": "f00034_id001_car",
+      "file": "vehicle_detections/f00034_id001_car.jpg",
+      "frame": 34,
+      "time_s": 2.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.905,
+      "box_frame": [
+        431.7,
+        376.0,
+        766.8,
+        837.6
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        883
+      ]
+    },
+    {
+      "stem": "f00035_id001_car",
+      "file": "vehicle_detections/f00035_id001_car.jpg",
+      "frame": 35,
+      "time_s": 2.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.907,
+      "box_frame": [
+        431.7,
+        376.0,
+        766.8,
+        837.5
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        883
+      ]
+    },
+    {
+      "stem": "f00036_id001_car",
+      "file": "vehicle_detections/f00036_id001_car.jpg",
+      "frame": 36,
+      "time_s": 2.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.907,
+      "box_frame": [
+        432.2,
+        376.0,
+        766.5,
+        836.1
+      ],
+      "crop_frame": [
+        398,
+        329,
+        799,
+        882
+      ]
+    },
+    {
+      "stem": "f00037_id001_car",
+      "file": "vehicle_detections/f00037_id001_car.jpg",
+      "frame": 37,
+      "time_s": 2.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        432.2,
+        376.0,
+        766.5,
+        835.7
+      ],
+      "crop_frame": [
+        398,
+        330,
+        799,
+        881
+      ]
+    },
+    {
+      "stem": "f00038_id001_car",
+      "file": "vehicle_detections/f00038_id001_car.jpg",
+      "frame": 38,
+      "time_s": 2.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.9,
+        376.0,
+        766.8,
+        836.3
+      ],
+      "crop_frame": [
+        398,
+        329,
+        800,
+        882
+      ]
+    },
+    {
+      "stem": "f00039_id001_car",
+      "file": "vehicle_detections/f00039_id001_car.jpg",
+      "frame": 39,
+      "time_s": 2.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        430.8,
+        376.0,
+        767.8,
+        839.7
+      ],
+      "crop_frame": [
+        397,
+        329,
+        801,
+        886
+      ]
+    },
+    {
+      "stem": "f00040_id001_car",
+      "file": "vehicle_detections/f00040_id001_car.jpg",
+      "frame": 40,
+      "time_s": 2.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        430.6,
+        376.0,
+        768.0,
+        840.4
+      ],
+      "crop_frame": [
+        396,
+        329,
+        801,
+        886
+      ]
+    },
+    {
+      "stem": "f00041_id001_car",
+      "file": "vehicle_detections/f00041_id001_car.jpg",
+      "frame": 41,
+      "time_s": 2.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        430.3,
+        376.0,
+        768.2,
+        841.4
+      ],
+      "crop_frame": [
+        396,
+        329,
+        801,
+        887
+      ]
+    },
+    {
+      "stem": "f00042_id001_car",
+      "file": "vehicle_detections/f00042_id001_car.jpg",
+      "frame": 42,
+      "time_s": 2.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        430.8,
+        376.0,
+        767.6,
+        839.9
+      ],
+      "crop_frame": [
+        397,
+        329,
+        801,
+        886
+      ]
+    },
+    {
+      "stem": "f00043_id001_car",
+      "file": "vehicle_detections/f00043_id001_car.jpg",
+      "frame": 43,
+      "time_s": 2.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.0,
+        376.0,
+        767.4,
+        839.3
+      ],
+      "crop_frame": [
+        397,
+        329,
+        800,
+        885
+      ]
+    },
+    {
+      "stem": "f00044_id001_car",
+      "file": "vehicle_detections/f00044_id001_car.jpg",
+      "frame": 44,
+      "time_s": 2.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.0,
+        376.0,
+        767.3,
+        839.4
+      ],
+      "crop_frame": [
+        397,
+        329,
+        800,
+        885
+      ]
+    },
+    {
+      "stem": "f00045_id001_car",
+      "file": "vehicle_detections/f00045_id001_car.jpg",
+      "frame": 45,
+      "time_s": 3.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.1,
+        376.0,
+        767.2,
+        839.2
+      ],
+      "crop_frame": [
+        397,
+        329,
+        800,
+        885
+      ]
+    },
+    {
+      "stem": "f00046_id001_car",
+      "file": "vehicle_detections/f00046_id001_car.jpg",
+      "frame": 46,
+      "time_s": 3.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.907,
+      "box_frame": [
+        433.3,
+        376.0,
+        767.0,
+        835.2
+      ],
+      "crop_frame": [
+        399,
+        330,
+        800,
+        881
+      ]
+    },
+    {
+      "stem": "f00047_id001_car",
+      "file": "vehicle_detections/f00047_id001_car.jpg",
+      "frame": 47,
+      "time_s": 3.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.906,
+      "box_frame": [
+        434.1,
+        376.0,
+        766.9,
+        833.3
+      ],
+      "crop_frame": [
+        400,
+        330,
+        800,
+        878
+      ]
+    },
+    {
+      "stem": "f00048_id001_car",
+      "file": "vehicle_detections/f00048_id001_car.jpg",
+      "frame": 48,
+      "time_s": 3.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        434.5,
+        376.0,
+        766.6,
+        831.6
+      ],
+      "crop_frame": [
+        401,
+        330,
+        799,
+        877
+      ]
+    },
+    {
+      "stem": "f00049_id001_car",
+      "file": "vehicle_detections/f00049_id001_car.jpg",
+      "frame": 49,
+      "time_s": 3.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        434.8,
+        376.0,
+        766.4,
+        830.1
+      ],
+      "crop_frame": [
+        401,
+        330,
+        799,
+        875
+      ]
+    },
+    {
+      "stem": "f00050_id001_car",
+      "file": "vehicle_detections/f00050_id001_car.jpg",
+      "frame": 50,
+      "time_s": 3.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        434.5,
+        376.0,
+        766.7,
+        830.5
+      ],
+      "crop_frame": [
+        401,
+        330,
+        799,
+        875
+      ]
+    },
+    {
+      "stem": "f00051_id001_car",
+      "file": "vehicle_detections/f00051_id001_car.jpg",
+      "frame": 51,
+      "time_s": 3.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        434.0,
+        376.0,
+        767.0,
+        831.0
+      ],
+      "crop_frame": [
+        400,
+        330,
+        800,
+        876
+      ]
+    },
+    {
+      "stem": "f00052_id001_car",
+      "file": "vehicle_detections/f00052_id001_car.jpg",
+      "frame": 52,
+      "time_s": 3.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.905,
+      "box_frame": [
+        433.6,
+        376.0,
+        767.4,
+        831.9
+      ],
+      "crop_frame": [
+        400,
+        330,
+        800,
+        877
+      ]
+    },
+    {
+      "stem": "f00053_id001_car",
+      "file": "vehicle_detections/f00053_id001_car.jpg",
+      "frame": 53,
+      "time_s": 3.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.906,
+      "box_frame": [
+        433.4,
+        376.0,
+        767.6,
+        832.2
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00054_id001_car",
+      "file": "vehicle_detections/f00054_id001_car.jpg",
+      "frame": 54,
+      "time_s": 3.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.902,
+      "box_frame": [
+        433.1,
+        376.0,
+        767.8,
+        832.6
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        878
+      ]
+    },
+    {
+      "stem": "f00055_id001_car",
+      "file": "vehicle_detections/f00055_id001_car.jpg",
+      "frame": 55,
+      "time_s": 3.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.904,
+      "box_frame": [
+        433.2,
+        376.0,
+        767.7,
+        832.2
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00056_id001_car",
+      "file": "vehicle_detections/f00056_id001_car.jpg",
+      "frame": 56,
+      "time_s": 3.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.904,
+      "box_frame": [
+        433.2,
+        376.0,
+        767.7,
+        831.9
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00057_id001_car",
+      "file": "vehicle_detections/f00057_id001_car.jpg",
+      "frame": 57,
+      "time_s": 3.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.905,
+      "box_frame": [
+        433.2,
+        376.0,
+        767.6,
+        831.4
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        876
+      ]
+    },
+    {
+      "stem": "f00058_id001_car",
+      "file": "vehicle_detections/f00058_id001_car.jpg",
+      "frame": 58,
+      "time_s": 3.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.907,
+      "box_frame": [
+        433.1,
+        376.0,
+        767.7,
+        831.4
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        876
+      ]
+    },
+    {
+      "stem": "f00059_id001_car",
+      "file": "vehicle_detections/f00059_id001_car.jpg",
+      "frame": 59,
+      "time_s": 3.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        432.7,
+        376.0,
+        768.0,
+        832.4
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00060_id001_car",
+      "file": "vehicle_detections/f00060_id001_car.jpg",
+      "frame": 60,
+      "time_s": 4.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        432.8,
+        376.0,
+        767.9,
+        831.8
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00061_id001_car",
+      "file": "vehicle_detections/f00061_id001_car.jpg",
+      "frame": 61,
+      "time_s": 4.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        432.2,
+        376.3,
+        768.7,
+        834.1
+      ],
+      "crop_frame": [
+        398,
+        330,
+        802,
+        879
+      ]
+    },
+    {
+      "stem": "f00062_id001_car",
+      "file": "vehicle_detections/f00062_id001_car.jpg",
+      "frame": 62,
+      "time_s": 4.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        431.9,
+        376.5,
+        769.2,
+        835.2
+      ],
+      "crop_frame": [
+        398,
+        330,
+        802,
+        881
+      ]
+    },
+    {
+      "stem": "f00063_id001_car",
+      "file": "vehicle_detections/f00063_id001_car.jpg",
+      "frame": 63,
+      "time_s": 4.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.8,
+        376.5,
+        769.4,
+        835.7
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00064_id001_car",
+      "file": "vehicle_detections/f00064_id001_car.jpg",
+      "frame": 64,
+      "time_s": 4.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        431.8,
+        376.6,
+        769.3,
+        835.7
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00065_id001_car",
+      "file": "vehicle_detections/f00065_id001_car.jpg",
+      "frame": 65,
+      "time_s": 4.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.9,
+        376.6,
+        769.3,
+        835.5
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00066_id001_car",
+      "file": "vehicle_detections/f00066_id001_car.jpg",
+      "frame": 66,
+      "time_s": 4.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        432.0,
+        376.6,
+        769.4,
+        835.5
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00067_id001_car",
+      "file": "vehicle_detections/f00067_id001_car.jpg",
+      "frame": 67,
+      "time_s": 4.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        431.9,
+        376.6,
+        769.3,
+        835.6
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00068_id001_car",
+      "file": "vehicle_detections/f00068_id001_car.jpg",
+      "frame": 68,
+      "time_s": 4.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        431.9,
+        376.6,
+        769.3,
+        835.4
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00069_id001_car",
+      "file": "vehicle_detections/f00069_id001_car.jpg",
+      "frame": 69,
+      "time_s": 4.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.9,
+        376.6,
+        769.3,
+        835.5
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00070_id001_car",
+      "file": "vehicle_detections/f00070_id001_car.jpg",
+      "frame": 70,
+      "time_s": 4.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.7,
+        376.5,
+        769.5,
+        835.9
+      ],
+      "crop_frame": [
+        397,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00071_id001_car",
+      "file": "vehicle_detections/f00071_id001_car.jpg",
+      "frame": 71,
+      "time_s": 4.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.7,
+        376.5,
+        769.5,
+        836.1
+      ],
+      "crop_frame": [
+        397,
+        330,
+        803,
+        882
+      ]
+    },
+    {
+      "stem": "f00072_id001_car",
+      "file": "vehicle_detections/f00072_id001_car.jpg",
+      "frame": 72,
+      "time_s": 4.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        431.9,
+        376.5,
+        769.3,
+        835.6
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00073_id001_car",
+      "file": "vehicle_detections/f00073_id001_car.jpg",
+      "frame": 73,
+      "time_s": 4.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        431.9,
+        376.5,
+        769.3,
+        835.4
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00074_id001_car",
+      "file": "vehicle_detections/f00074_id001_car.jpg",
+      "frame": 74,
+      "time_s": 4.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.8,
+        376.5,
+        769.4,
+        835.7
+      ],
+      "crop_frame": [
+        398,
+        330,
+        803,
+        881
+      ]
+    },
+    {
+      "stem": "f00075_id001_car",
+      "file": "vehicle_detections/f00075_id001_car.jpg",
+      "frame": 75,
+      "time_s": 5.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        431.5,
+        376.5,
+        769.1,
+        835.9
+      ],
+      "crop_frame": [
+        397,
+        330,
+        802,
+        881
+      ]
+    },
+    {
+      "stem": "f00076_id001_car",
+      "file": "vehicle_detections/f00076_id001_car.jpg",
+      "frame": 76,
+      "time_s": 5.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        432.3,
+        376.4,
+        768.3,
+        833.6
+      ],
+      "crop_frame": [
+        398,
+        330,
+        801,
+        879
+      ]
+    },
+    {
+      "stem": "f00077_id001_car",
+      "file": "vehicle_detections/f00077_id001_car.jpg",
+      "frame": 77,
+      "time_s": 5.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        432.1,
+        376.2,
+        768.4,
+        833.8
+      ],
+      "crop_frame": [
+        398,
+        330,
+        802,
+        879
+      ]
+    },
+    {
+      "stem": "f00078_id001_car",
+      "file": "vehicle_detections/f00078_id001_car.jpg",
+      "frame": 78,
+      "time_s": 5.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        432.5,
+        376.3,
+        768.1,
+        832.9
+      ],
+      "crop_frame": [
+        398,
+        330,
+        801,
+        878
+      ]
+    },
+    {
+      "stem": "f00079_id001_car",
+      "file": "vehicle_detections/f00079_id001_car.jpg",
+      "frame": 79,
+      "time_s": 5.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        432.1,
+        376.1,
+        768.3,
+        833.5
+      ],
+      "crop_frame": [
+        398,
+        330,
+        801,
+        879
+      ]
+    },
+    {
+      "stem": "f00080_id001_car",
+      "file": "vehicle_detections/f00080_id001_car.jpg",
+      "frame": 80,
+      "time_s": 5.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        432.4,
+        376.0,
+        768.0,
+        832.4
+      ],
+      "crop_frame": [
+        398,
+        330,
+        801,
+        878
+      ]
+    },
+    {
+      "stem": "f00081_id001_car",
+      "file": "vehicle_detections/f00081_id001_car.jpg",
+      "frame": 81,
+      "time_s": 5.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        433.1,
+        376.3,
+        767.5,
+        830.9
+      ],
+      "crop_frame": [
+        399,
+        330,
+        800,
+        876
+      ]
+    },
+    {
+      "stem": "f00082_id001_car",
+      "file": "vehicle_detections/f00082_id001_car.jpg",
+      "frame": 82,
+      "time_s": 5.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.8,
+        376.4,
+        767.7,
+        831.5
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00083_id001_car",
+      "file": "vehicle_detections/f00083_id001_car.jpg",
+      "frame": 83,
+      "time_s": 5.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        432.7,
+        376.4,
+        767.8,
+        832.0
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00084_id001_car",
+      "file": "vehicle_detections/f00084_id001_car.jpg",
+      "frame": 84,
+      "time_s": 5.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        432.6,
+        376.4,
+        767.9,
+        832.2
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00085_id001_car",
+      "file": "vehicle_detections/f00085_id001_car.jpg",
+      "frame": 85,
+      "time_s": 5.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.7,
+        376.3,
+        767.9,
+        832.1
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00086_id001_car",
+      "file": "vehicle_detections/f00086_id001_car.jpg",
+      "frame": 86,
+      "time_s": 5.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.8,
+        376.4,
+        767.9,
+        832.0
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00087_id001_car",
+      "file": "vehicle_detections/f00087_id001_car.jpg",
+      "frame": 87,
+      "time_s": 5.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.8,
+        376.4,
+        767.9,
+        832.1
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00088_id001_car",
+      "file": "vehicle_detections/f00088_id001_car.jpg",
+      "frame": 88,
+      "time_s": 5.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.9,
+        376.4,
+        767.7,
+        831.5
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00089_id001_car",
+      "file": "vehicle_detections/f00089_id001_car.jpg",
+      "frame": 89,
+      "time_s": 5.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        432.8,
+        376.4,
+        767.8,
+        831.8
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        877
+      ]
+    },
+    {
+      "stem": "f00090_id001_car",
+      "file": "vehicle_detections/f00090_id001_car.jpg",
+      "frame": 90,
+      "time_s": 6.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        433.0,
+        376.4,
+        767.7,
+        831.4
+      ],
+      "crop_frame": [
+        399,
+        330,
+        801,
+        876
+      ]
+    },
+    {
+      "stem": "f00091_id001_car",
+      "file": "vehicle_detections/f00091_id001_car.jpg",
+      "frame": 91,
+      "time_s": 6.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.921,
+      "box_frame": [
+        434.0,
+        376.1,
+        767.2,
+        828.2
+      ],
+      "crop_frame": [
+        400,
+        330,
+        800,
+        873
+      ]
+    },
+    {
+      "stem": "f00092_id001_car",
+      "file": "vehicle_detections/f00092_id001_car.jpg",
+      "frame": 92,
+      "time_s": 6.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        433.8,
+        376.0,
+        767.9,
+        828.9
+      ],
+      "crop_frame": [
+        400,
+        330,
+        801,
+        874
+      ]
+    },
+    {
+      "stem": "f00093_id001_car",
+      "file": "vehicle_detections/f00093_id001_car.jpg",
+      "frame": 93,
+      "time_s": 6.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        434.5,
+        376.2,
+        767.5,
+        826.9
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        872
+      ]
+    },
+    {
+      "stem": "f00094_id001_car",
+      "file": "vehicle_detections/f00094_id001_car.jpg",
+      "frame": 94,
+      "time_s": 6.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.921,
+      "box_frame": [
+        435.1,
+        376.3,
+        767.3,
+        825.5
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        870
+      ]
+    },
+    {
+      "stem": "f00095_id001_car",
+      "file": "vehicle_detections/f00095_id001_car.jpg",
+      "frame": 95,
+      "time_s": 6.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        435.2,
+        376.4,
+        766.7,
+        823.8
+      ],
+      "crop_frame": [
+        402,
+        331,
+        799,
+        868
+      ]
+    },
+    {
+      "stem": "f00096_id001_car",
+      "file": "vehicle_detections/f00096_id001_car.jpg",
+      "frame": 96,
+      "time_s": 6.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        435.3,
+        376.5,
+        766.5,
+        822.6
+      ],
+      "crop_frame": [
+        402,
+        331,
+        799,
+        867
+      ]
+    },
+    {
+      "stem": "f00097_id001_car",
+      "file": "vehicle_detections/f00097_id001_car.jpg",
+      "frame": 97,
+      "time_s": 6.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.921,
+      "box_frame": [
+        434.5,
+        376.4,
+        767.5,
+        824.6
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        869
+      ]
+    },
+    {
+      "stem": "f00098_id001_car",
+      "file": "vehicle_detections/f00098_id001_car.jpg",
+      "frame": 98,
+      "time_s": 6.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        434.1,
+        376.4,
+        768.0,
+        825.7
+      ],
+      "crop_frame": [
+        400,
+        331,
+        801,
+        870
+      ]
+    },
+    {
+      "stem": "f00099_id001_car",
+      "file": "vehicle_detections/f00099_id001_car.jpg",
+      "frame": 99,
+      "time_s": 6.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        434.9,
+        376.4,
+        766.9,
+        822.3
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        866
+      ]
+    },
+    {
+      "stem": "f00100_id001_car",
+      "file": "vehicle_detections/f00100_id001_car.jpg",
+      "frame": 100,
+      "time_s": 6.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        434.8,
+        376.4,
+        766.9,
+        821.8
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        866
+      ]
+    },
+    {
+      "stem": "f00101_id001_car",
+      "file": "vehicle_detections/f00101_id001_car.jpg",
+      "frame": 101,
+      "time_s": 6.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        434.3,
+        376.4,
+        767.6,
+        823.3
+      ],
+      "crop_frame": [
+        400,
+        331,
+        800,
+        867
+      ]
+    },
+    {
+      "stem": "f00102_id001_car",
+      "file": "vehicle_detections/f00102_id001_car.jpg",
+      "frame": 102,
+      "time_s": 6.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        433.9,
+        376.4,
+        768.1,
+        824.1
+      ],
+      "crop_frame": [
+        400,
+        331,
+        801,
+        868
+      ]
+    },
+    {
+      "stem": "f00103_id001_car",
+      "file": "vehicle_detections/f00103_id001_car.jpg",
+      "frame": 103,
+      "time_s": 6.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        434.4,
+        376.5,
+        767.2,
+        821.6
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        866
+      ]
+    },
+    {
+      "stem": "f00104_id001_car",
+      "file": "vehicle_detections/f00104_id001_car.jpg",
+      "frame": 104,
+      "time_s": 6.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        434.4,
+        376.4,
+        767.0,
+        821.0
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        865
+      ]
+    },
+    {
+      "stem": "f00105_id001_car",
+      "file": "vehicle_detections/f00105_id001_car.jpg",
+      "frame": 105,
+      "time_s": 7.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        434.5,
+        376.4,
+        766.8,
+        820.0
+      ],
+      "crop_frame": [
+        401,
+        332,
+        799,
+        864
+      ]
+    },
+    {
+      "stem": "f00106_id001_car",
+      "file": "vehicle_detections/f00106_id001_car.jpg",
+      "frame": 106,
+      "time_s": 7.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        434.1,
+        376.1,
+        765.8,
+        818.3
+      ],
+      "crop_frame": [
+        400,
+        331,
+        798,
+        862
+      ]
+    },
+    {
+      "stem": "f00107_id001_car",
+      "file": "vehicle_detections/f00107_id001_car.jpg",
+      "frame": 107,
+      "time_s": 7.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        433.8,
+        376.0,
+        766.2,
+        818.5
+      ],
+      "crop_frame": [
+        400,
+        331,
+        799,
+        862
+      ]
+    },
+    {
+      "stem": "f00108_id001_car",
+      "file": "vehicle_detections/f00108_id001_car.jpg",
+      "frame": 108,
+      "time_s": 7.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        433.7,
+        376.0,
+        765.9,
+        817.8
+      ],
+      "crop_frame": [
+        400,
+        331,
+        799,
+        861
+      ]
+    },
+    {
+      "stem": "f00109_id001_car",
+      "file": "vehicle_detections/f00109_id001_car.jpg",
+      "frame": 109,
+      "time_s": 7.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        433.5,
+        376.0,
+        766.0,
+        817.7
+      ],
+      "crop_frame": [
+        400,
+        331,
+        799,
+        861
+      ]
+    },
+    {
+      "stem": "f00110_id001_car",
+      "file": "vehicle_detections/f00110_id001_car.jpg",
+      "frame": 110,
+      "time_s": 7.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        433.6,
+        376.3,
+        766.3,
+        818.0
+      ],
+      "crop_frame": [
+        400,
+        332,
+        799,
+        862
+      ]
+    },
+    {
+      "stem": "f00111_id001_car",
+      "file": "vehicle_detections/f00111_id001_car.jpg",
+      "frame": 111,
+      "time_s": 7.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        433.4,
+        376.5,
+        766.5,
+        818.4
+      ],
+      "crop_frame": [
+        400,
+        332,
+        799,
+        862
+      ]
+    },
+    {
+      "stem": "f00112_id001_car",
+      "file": "vehicle_detections/f00112_id001_car.jpg",
+      "frame": 112,
+      "time_s": 7.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        433.0,
+        376.2,
+        767.2,
+        819.3
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        863
+      ]
+    },
+    {
+      "stem": "f00113_id001_car",
+      "file": "vehicle_detections/f00113_id001_car.jpg",
+      "frame": 113,
+      "time_s": 7.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        433.1,
+        376.4,
+        767.3,
+        819.5
+      ],
+      "crop_frame": [
+        399,
+        332,
+        800,
+        863
+      ]
+    },
+    {
+      "stem": "f00114_id001_car",
+      "file": "vehicle_detections/f00114_id001_car.jpg",
+      "frame": 114,
+      "time_s": 7.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        433.2,
+        376.5,
+        767.0,
+        818.9
+      ],
+      "crop_frame": [
+        399,
+        332,
+        800,
+        863
+      ]
+    },
+    {
+      "stem": "f00115_id001_car",
+      "file": "vehicle_detections/f00115_id001_car.jpg",
+      "frame": 115,
+      "time_s": 7.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        432.6,
+        376.2,
+        767.1,
+        819.1
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        863
+      ]
+    },
+    {
+      "stem": "f00116_id001_car",
+      "file": "vehicle_detections/f00116_id001_car.jpg",
+      "frame": 116,
+      "time_s": 7.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.2,
+        376.1,
+        768.6,
+        823.2
+      ],
+      "crop_frame": [
+        397,
+        331,
+        802,
+        867
+      ]
+    },
+    {
+      "stem": "f00117_id001_car",
+      "file": "vehicle_detections/f00117_id001_car.jpg",
+      "frame": 117,
+      "time_s": 7.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        430.5,
+        376.0,
+        769.3,
+        825.5
+      ],
+      "crop_frame": [
+        396,
+        331,
+        803,
+        870
+      ]
+    },
+    {
+      "stem": "f00118_id001_car",
+      "file": "vehicle_detections/f00118_id001_car.jpg",
+      "frame": 118,
+      "time_s": 7.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        432.2,
+        376.3,
+        767.8,
+        821.3
+      ],
+      "crop_frame": [
+        398,
+        331,
+        801,
+        865
+      ]
+    },
+    {
+      "stem": "f00119_id001_car",
+      "file": "vehicle_detections/f00119_id001_car.jpg",
+      "frame": 119,
+      "time_s": 7.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        432.4,
+        376.1,
+        767.4,
+        819.9
+      ],
+      "crop_frame": [
+        398,
+        331,
+        800,
+        864
+      ]
+    },
+    {
+      "stem": "f00120_id001_car",
+      "file": "vehicle_detections/f00120_id001_car.jpg",
+      "frame": 120,
+      "time_s": 8.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        431.7,
+        376.0,
+        768.5,
+        822.3
+      ],
+      "crop_frame": [
+        398,
+        331,
+        802,
+        866
+      ]
+    },
+    {
+      "stem": "f00121_id001_car",
+      "file": "vehicle_detections/f00121_id001_car.jpg",
+      "frame": 121,
+      "time_s": 8.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.932,
+      "box_frame": [
+        433.0,
+        376.5,
+        768.7,
+        821.2
+      ],
+      "crop_frame": [
+        399,
+        331,
+        802,
+        865
+      ]
+    },
+    {
+      "stem": "f00122_id001_car",
+      "file": "vehicle_detections/f00122_id001_car.jpg",
+      "frame": 122,
+      "time_s": 8.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        433.1,
+        376.6,
+        768.9,
+        821.2
+      ],
+      "crop_frame": [
+        399,
+        332,
+        802,
+        865
+      ]
+    },
+    {
+      "stem": "f00123_id001_car",
+      "file": "vehicle_detections/f00123_id001_car.jpg",
+      "frame": 123,
+      "time_s": 8.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        432.9,
+        376.7,
+        769.4,
+        822.1
+      ],
+      "crop_frame": [
+        399,
+        332,
+        803,
+        866
+      ]
+    },
+    {
+      "stem": "f00124_id001_car",
+      "file": "vehicle_detections/f00124_id001_car.jpg",
+      "frame": 124,
+      "time_s": 8.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        432.9,
+        376.7,
+        769.6,
+        822.2
+      ],
+      "crop_frame": [
+        399,
+        332,
+        803,
+        866
+      ]
+    },
+    {
+      "stem": "f00125_id001_car",
+      "file": "vehicle_detections/f00125_id001_car.jpg",
+      "frame": 125,
+      "time_s": 8.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        433.3,
+        376.8,
+        769.3,
+        821.2
+      ],
+      "crop_frame": [
+        399,
+        332,
+        802,
+        865
+      ]
+    },
+    {
+      "stem": "f00126_id001_car",
+      "file": "vehicle_detections/f00126_id001_car.jpg",
+      "frame": 126,
+      "time_s": 8.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        433.1,
+        376.8,
+        769.5,
+        821.7
+      ],
+      "crop_frame": [
+        399,
+        332,
+        803,
+        866
+      ]
+    },
+    {
+      "stem": "f00127_id001_car",
+      "file": "vehicle_detections/f00127_id001_car.jpg",
+      "frame": 127,
+      "time_s": 8.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        433.2,
+        376.7,
+        769.3,
+        821.1
+      ],
+      "crop_frame": [
+        399,
+        332,
+        802,
+        865
+      ]
+    },
+    {
+      "stem": "f00128_id001_car",
+      "file": "vehicle_detections/f00128_id001_car.jpg",
+      "frame": 128,
+      "time_s": 8.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        433.2,
+        376.7,
+        769.3,
+        820.9
+      ],
+      "crop_frame": [
+        399,
+        332,
+        802,
+        865
+      ]
+    },
+    {
+      "stem": "f00129_id001_car",
+      "file": "vehicle_detections/f00129_id001_car.jpg",
+      "frame": 129,
+      "time_s": 8.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        433.4,
+        376.8,
+        769.1,
+        820.4
+      ],
+      "crop_frame": [
+        399,
+        332,
+        802,
+        864
+      ]
+    },
+    {
+      "stem": "f00130_id001_car",
+      "file": "vehicle_detections/f00130_id001_car.jpg",
+      "frame": 130,
+      "time_s": 8.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        432.6,
+        376.7,
+        769.6,
+        822.1
+      ],
+      "crop_frame": [
+        398,
+        332,
+        803,
+        866
+      ]
+    },
+    {
+      "stem": "f00131_id001_car",
+      "file": "vehicle_detections/f00131_id001_car.jpg",
+      "frame": 131,
+      "time_s": 8.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        432.6,
+        376.7,
+        769.5,
+        822.0
+      ],
+      "crop_frame": [
+        398,
+        332,
+        803,
+        866
+      ]
+    },
+    {
+      "stem": "f00132_id001_car",
+      "file": "vehicle_detections/f00132_id001_car.jpg",
+      "frame": 132,
+      "time_s": 8.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        432.6,
+        376.7,
+        769.5,
+        821.7
+      ],
+      "crop_frame": [
+        398,
+        332,
+        803,
+        866
+      ]
+    },
+    {
+      "stem": "f00133_id001_car",
+      "file": "vehicle_detections/f00133_id001_car.jpg",
+      "frame": 133,
+      "time_s": 8.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        432.8,
+        376.7,
+        769.4,
+        821.3
+      ],
+      "crop_frame": [
+        399,
+        332,
+        803,
+        865
+      ]
+    },
+    {
+      "stem": "f00134_id001_car",
+      "file": "vehicle_detections/f00134_id001_car.jpg",
+      "frame": 134,
+      "time_s": 8.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        432.8,
+        376.7,
+        769.4,
+        821.3
+      ],
+      "crop_frame": [
+        399,
+        332,
+        803,
+        865
+      ]
+    },
+    {
+      "stem": "f00135_id001_car",
+      "file": "vehicle_detections/f00135_id001_car.jpg",
+      "frame": 135,
+      "time_s": 9.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        432.1,
+        376.7,
+        770.2,
+        823.4
+      ],
+      "crop_frame": [
+        398,
+        332,
+        804,
+        868
+      ]
+    },
+    {
+      "stem": "f00136_id001_car",
+      "file": "vehicle_detections/f00136_id001_car.jpg",
+      "frame": 136,
+      "time_s": 9.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        428.7,
+        376.2,
+        772.0,
+        831.2
+      ],
+      "crop_frame": [
+        394,
+        330,
+        806,
+        876
+      ]
+    },
+    {
+      "stem": "f00137_id001_car",
+      "file": "vehicle_detections/f00137_id001_car.jpg",
+      "frame": 137,
+      "time_s": 9.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        427.7,
+        376.1,
+        772.9,
+        834.8
+      ],
+      "crop_frame": [
+        393,
+        330,
+        807,
+        880
+      ]
+    },
+    {
+      "stem": "f00138_id001_car",
+      "file": "vehicle_detections/f00138_id001_car.jpg",
+      "frame": 138,
+      "time_s": 9.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        427.9,
+        376.0,
+        772.8,
+        835.5
+      ],
+      "crop_frame": [
+        393,
+        330,
+        807,
+        881
+      ]
+    },
+    {
+      "stem": "f00139_id001_car",
+      "file": "vehicle_detections/f00139_id001_car.jpg",
+      "frame": 139,
+      "time_s": 9.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        427.9,
+        376.0,
+        772.8,
+        836.4
+      ],
+      "crop_frame": [
+        393,
+        329,
+        807,
+        882
+      ]
+    },
+    {
+      "stem": "f00140_id001_car",
+      "file": "vehicle_detections/f00140_id001_car.jpg",
+      "frame": 140,
+      "time_s": 9.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        428.2,
+        376.0,
+        772.5,
+        836.6
+      ],
+      "crop_frame": [
+        393,
+        329,
+        806,
+        882
+      ]
+    },
+    {
+      "stem": "f00141_id001_car",
+      "file": "vehicle_detections/f00141_id001_car.jpg",
+      "frame": 141,
+      "time_s": 9.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        428.6,
+        376.0,
+        772.1,
+        836.3
+      ],
+      "crop_frame": [
+        394,
+        329,
+        806,
+        882
+      ]
+    },
+    {
+      "stem": "f00142_id001_car",
+      "file": "vehicle_detections/f00142_id001_car.jpg",
+      "frame": 142,
+      "time_s": 9.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        429.0,
+        376.0,
+        771.7,
+        836.1
+      ],
+      "crop_frame": [
+        394,
+        329,
+        806,
+        882
+      ]
+    },
+    {
+      "stem": "f00143_id001_car",
+      "file": "vehicle_detections/f00143_id001_car.jpg",
+      "frame": 143,
+      "time_s": 9.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        429.2,
+        376.0,
+        771.0,
+        835.5
+      ],
+      "crop_frame": [
+        394,
+        330,
+        805,
+        881
+      ]
+    },
+    {
+      "stem": "f00144_id001_car",
+      "file": "vehicle_detections/f00144_id001_car.jpg",
+      "frame": 144,
+      "time_s": 9.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        429.8,
+        376.0,
+        770.9,
+        834.9
+      ],
+      "crop_frame": [
+        395,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00145_id001_car",
+      "file": "vehicle_detections/f00145_id001_car.jpg",
+      "frame": 145,
+      "time_s": 9.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        430.1,
+        376.0,
+        770.7,
+        834.6
+      ],
+      "crop_frame": [
+        396,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00146_id001_car",
+      "file": "vehicle_detections/f00146_id001_car.jpg",
+      "frame": 146,
+      "time_s": 9.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        430.4,
+        376.0,
+        770.4,
+        834.4
+      ],
+      "crop_frame": [
+        396,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00147_id001_car",
+      "file": "vehicle_detections/f00147_id001_car.jpg",
+      "frame": 147,
+      "time_s": 9.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        430.6,
+        376.0,
+        770.3,
+        834.3
+      ],
+      "crop_frame": [
+        396,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00148_id001_car",
+      "file": "vehicle_detections/f00148_id001_car.jpg",
+      "frame": 148,
+      "time_s": 9.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        430.8,
+        376.0,
+        770.4,
+        834.5
+      ],
+      "crop_frame": [
+        396,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00149_id001_car",
+      "file": "vehicle_detections/f00149_id001_car.jpg",
+      "frame": 149,
+      "time_s": 9.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        430.9,
+        376.0,
+        770.3,
+        834.7
+      ],
+      "crop_frame": [
+        396,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00150_id001_car",
+      "file": "vehicle_detections/f00150_id001_car.jpg",
+      "frame": 150,
+      "time_s": 10.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.932,
+      "box_frame": [
+        431.0,
+        376.0,
+        770.2,
+        834.6
+      ],
+      "crop_frame": [
+        397,
+        330,
+        804,
+        880
+      ]
+    },
+    {
+      "stem": "f00151_id001_car",
+      "file": "vehicle_detections/f00151_id001_car.jpg",
+      "frame": 151,
+      "time_s": 10.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        433.7,
+        376.4,
+        766.9,
+        826.1
+      ],
+      "crop_frame": [
+        400,
+        331,
+        800,
+        871
+      ]
+    },
+    {
+      "stem": "f00152_id001_car",
+      "file": "vehicle_detections/f00152_id001_car.jpg",
+      "frame": 152,
+      "time_s": 10.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        434.5,
+        376.5,
+        765.7,
+        822.7
+      ],
+      "crop_frame": [
+        401,
+        331,
+        798,
+        867
+      ]
+    },
+    {
+      "stem": "f00153_id001_car",
+      "file": "vehicle_detections/f00153_id001_car.jpg",
+      "frame": 153,
+      "time_s": 10.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        434.1,
+        376.2,
+        765.5,
+        821.6
+      ],
+      "crop_frame": [
+        400,
+        331,
+        798,
+        866
+      ]
+    },
+    {
+      "stem": "f00154_id001_car",
+      "file": "vehicle_detections/f00154_id001_car.jpg",
+      "frame": 154,
+      "time_s": 10.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.923,
+      "box_frame": [
+        433.9,
+        376.4,
+        766.4,
+        822.8
+      ],
+      "crop_frame": [
+        400,
+        331,
+        799,
+        867
+      ]
+    },
+    {
+      "stem": "f00155_id001_car",
+      "file": "vehicle_detections/f00155_id001_car.jpg",
+      "frame": 155,
+      "time_s": 10.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        433.3,
+        376.1,
+        766.2,
+        822.7
+      ],
+      "crop_frame": [
+        400,
+        331,
+        799,
+        867
+      ]
+    },
+    {
+      "stem": "f00156_id001_car",
+      "file": "vehicle_detections/f00156_id001_car.jpg",
+      "frame": 156,
+      "time_s": 10.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        432.8,
+        376.0,
+        766.8,
+        823.7
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        868
+      ]
+    },
+    {
+      "stem": "f00157_id001_car",
+      "file": "vehicle_detections/f00157_id001_car.jpg",
+      "frame": 157,
+      "time_s": 10.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        432.8,
+        376.0,
+        766.6,
+        822.9
+      ],
+      "crop_frame": [
+        399,
+        331,
+        799,
+        867
+      ]
+    },
+    {
+      "stem": "f00158_id001_car",
+      "file": "vehicle_detections/f00158_id001_car.jpg",
+      "frame": 158,
+      "time_s": 10.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        431.2,
+        376.0,
+        768.3,
+        827.5
+      ],
+      "crop_frame": [
+        397,
+        330,
+        802,
+        872
+      ]
+    },
+    {
+      "stem": "f00159_id001_car",
+      "file": "vehicle_detections/f00159_id001_car.jpg",
+      "frame": 159,
+      "time_s": 10.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        432.3,
+        376.0,
+        767.1,
+        823.8
+      ],
+      "crop_frame": [
+        398,
+        331,
+        800,
+        868
+      ]
+    },
+    {
+      "stem": "f00160_id001_car",
+      "file": "vehicle_detections/f00160_id001_car.jpg",
+      "frame": 160,
+      "time_s": 10.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        432.5,
+        376.0,
+        766.9,
+        822.9
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        867
+      ]
+    },
+    {
+      "stem": "f00161_id001_car",
+      "file": "vehicle_detections/f00161_id001_car.jpg",
+      "frame": 161,
+      "time_s": 10.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        432.6,
+        376.0,
+        766.9,
+        822.5
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        867
+      ]
+    },
+    {
+      "stem": "f00162_id001_car",
+      "file": "vehicle_detections/f00162_id001_car.jpg",
+      "frame": 162,
+      "time_s": 10.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        432.2,
+        376.0,
+        767.1,
+        823.0
+      ],
+      "crop_frame": [
+        398,
+        331,
+        800,
+        867
+      ]
+    },
+    {
+      "stem": "f00163_id001_car",
+      "file": "vehicle_detections/f00163_id001_car.jpg",
+      "frame": 163,
+      "time_s": 10.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        431.9,
+        376.0,
+        767.3,
+        823.5
+      ],
+      "crop_frame": [
+        398,
+        331,
+        800,
+        868
+      ]
+    },
+    {
+      "stem": "f00164_id001_car",
+      "file": "vehicle_detections/f00164_id001_car.jpg",
+      "frame": 164,
+      "time_s": 10.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.932,
+      "box_frame": [
+        432.4,
+        376.0,
+        766.8,
+        821.8
+      ],
+      "crop_frame": [
+        398,
+        331,
+        800,
+        866
+      ]
+    },
+    {
+      "stem": "f00165_id001_car",
+      "file": "vehicle_detections/f00165_id001_car.jpg",
+      "frame": 165,
+      "time_s": 11.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        431.7,
+        376.0,
+        767.6,
+        823.9
+      ],
+      "crop_frame": [
+        398,
+        331,
+        801,
+        868
+      ]
+    },
+    {
+      "stem": "f00166_id001_car",
+      "file": "vehicle_detections/f00166_id001_car.jpg",
+      "frame": 166,
+      "time_s": 11.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        429.5,
+        376.0,
+        769.4,
+        830.1
+      ],
+      "crop_frame": [
+        395,
+        330,
+        803,
+        875
+      ]
+    },
+    {
+      "stem": "f00167_id001_car",
+      "file": "vehicle_detections/f00167_id001_car.jpg",
+      "frame": 167,
+      "time_s": 11.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.923,
+      "box_frame": [
+        428.4,
+        376.0,
+        770.3,
+        833.9
+      ],
+      "crop_frame": [
+        394,
+        330,
+        804,
+        879
+      ]
+    },
+    {
+      "stem": "f00168_id001_car",
+      "file": "vehicle_detections/f00168_id001_car.jpg",
+      "frame": 168,
+      "time_s": 11.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.923,
+      "box_frame": [
+        427.7,
+        376.0,
+        770.5,
+        835.9
+      ],
+      "crop_frame": [
+        393,
+        330,
+        804,
+        881
+      ]
+    },
+    {
+      "stem": "f00169_id001_car",
+      "file": "vehicle_detections/f00169_id001_car.jpg",
+      "frame": 169,
+      "time_s": 11.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        427.0,
+        376.0,
+        771.3,
+        839.3
+      ],
+      "crop_frame": [
+        392,
+        329,
+        805,
+        885
+      ]
+    },
+    {
+      "stem": "f00170_id001_car",
+      "file": "vehicle_detections/f00170_id001_car.jpg",
+      "frame": 170,
+      "time_s": 11.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        426.9,
+        376.0,
+        771.4,
+        840.8
+      ],
+      "crop_frame": [
+        392,
+        329,
+        805,
+        887
+      ]
+    },
+    {
+      "stem": "f00171_id001_car",
+      "file": "vehicle_detections/f00171_id001_car.jpg",
+      "frame": 171,
+      "time_s": 11.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        426.8,
+        376.0,
+        771.5,
+        842.2
+      ],
+      "crop_frame": [
+        392,
+        329,
+        805,
+        888
+      ]
+    },
+    {
+      "stem": "f00172_id001_car",
+      "file": "vehicle_detections/f00172_id001_car.jpg",
+      "frame": 172,
+      "time_s": 11.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        426.8,
+        376.0,
+        771.5,
+        843.3
+      ],
+      "crop_frame": [
+        392,
+        329,
+        805,
+        890
+      ]
+    },
+    {
+      "stem": "f00173_id001_car",
+      "file": "vehicle_detections/f00173_id001_car.jpg",
+      "frame": 173,
+      "time_s": 11.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        427.2,
+        376.0,
+        771.1,
+        843.5
+      ],
+      "crop_frame": [
+        392,
+        329,
+        805,
+        890
+      ]
+    },
+    {
+      "stem": "f00174_id001_car",
+      "file": "vehicle_detections/f00174_id001_car.jpg",
+      "frame": 174,
+      "time_s": 11.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        427.9,
+        376.0,
+        770.3,
+        842.2
+      ],
+      "crop_frame": [
+        393,
+        329,
+        804,
+        888
+      ]
+    },
+    {
+      "stem": "f00175_id001_car",
+      "file": "vehicle_detections/f00175_id001_car.jpg",
+      "frame": 175,
+      "time_s": 11.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        428.8,
+        376.0,
+        769.7,
+        840.8
+      ],
+      "crop_frame": [
+        394,
+        329,
+        803,
+        887
+      ]
+    },
+    {
+      "stem": "f00176_id001_car",
+      "file": "vehicle_detections/f00176_id001_car.jpg",
+      "frame": 176,
+      "time_s": 11.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        429.5,
+        376.0,
+        769.1,
+        839.4
+      ],
+      "crop_frame": [
+        395,
+        329,
+        803,
+        885
+      ]
+    },
+    {
+      "stem": "f00177_id001_car",
+      "file": "vehicle_detections/f00177_id001_car.jpg",
+      "frame": 177,
+      "time_s": 11.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        430.0,
+        376.0,
+        768.8,
+        838.8
+      ],
+      "crop_frame": [
+        396,
+        329,
+        802,
+        885
+      ]
+    },
+    {
+      "stem": "f00178_id001_car",
+      "file": "vehicle_detections/f00178_id001_car.jpg",
+      "frame": 178,
+      "time_s": 11.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        430.3,
+        376.0,
+        768.5,
+        838.5
+      ],
+      "crop_frame": [
+        396,
+        329,
+        802,
+        884
+      ]
+    },
+    {
+      "stem": "f00179_id001_car",
+      "file": "vehicle_detections/f00179_id001_car.jpg",
+      "frame": 179,
+      "time_s": 11.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.921,
+      "box_frame": [
+        432.4,
+        376.0,
+        766.5,
+        832.2
+      ],
+      "crop_frame": [
+        399,
+        330,
+        799,
+        877
+      ]
+    },
+    {
+      "stem": "f00180_id001_car",
+      "file": "vehicle_detections/f00180_id001_car.jpg",
+      "frame": 180,
+      "time_s": 12.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        432.4,
+        376.0,
+        765.9,
+        831.2
+      ],
+      "crop_frame": [
+        399,
+        330,
+        799,
+        876
+      ]
+    },
+    {
+      "stem": "f00181_id001_car",
+      "file": "vehicle_detections/f00181_id001_car.jpg",
+      "frame": 181,
+      "time_s": 12.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        435.2,
+        376.0,
+        763.8,
+        823.2
+      ],
+      "crop_frame": [
+        402,
+        331,
+        796,
+        867
+      ]
+    },
+    {
+      "stem": "f00182_id001_car",
+      "file": "vehicle_detections/f00182_id001_car.jpg",
+      "frame": 182,
+      "time_s": 12.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        435.8,
+        376.0,
+        763.5,
+        821.1
+      ],
+      "crop_frame": [
+        402,
+        331,
+        796,
+        865
+      ]
+    },
+    {
+      "stem": "f00183_id001_car",
+      "file": "vehicle_detections/f00183_id001_car.jpg",
+      "frame": 183,
+      "time_s": 12.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        435.5,
+        376.0,
+        763.9,
+        821.2
+      ],
+      "crop_frame": [
+        402,
+        331,
+        796,
+        865
+      ]
+    },
+    {
+      "stem": "f00184_id001_car",
+      "file": "vehicle_detections/f00184_id001_car.jpg",
+      "frame": 184,
+      "time_s": 12.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        435.3,
+        376.0,
+        764.0,
+        821.0
+      ],
+      "crop_frame": [
+        402,
+        331,
+        796,
+        865
+      ]
+    },
+    {
+      "stem": "f00185_id001_car",
+      "file": "vehicle_detections/f00185_id001_car.jpg",
+      "frame": 185,
+      "time_s": 12.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        434.7,
+        376.0,
+        764.4,
+        821.8
+      ],
+      "crop_frame": [
+        401,
+        331,
+        797,
+        866
+      ]
+    },
+    {
+      "stem": "f00186_id001_car",
+      "file": "vehicle_detections/f00186_id001_car.jpg",
+      "frame": 186,
+      "time_s": 12.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        434.5,
+        376.0,
+        764.6,
+        821.7
+      ],
+      "crop_frame": [
+        401,
+        331,
+        797,
+        866
+      ]
+    },
+    {
+      "stem": "f00187_id001_car",
+      "file": "vehicle_detections/f00187_id001_car.jpg",
+      "frame": 187,
+      "time_s": 12.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        434.5,
+        376.0,
+        764.8,
+        821.4
+      ],
+      "crop_frame": [
+        401,
+        331,
+        797,
+        865
+      ]
+    },
+    {
+      "stem": "f00188_id001_car",
+      "file": "vehicle_detections/f00188_id001_car.jpg",
+      "frame": 188,
+      "time_s": 12.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        434.3,
+        376.0,
+        764.9,
+        821.3
+      ],
+      "crop_frame": [
+        401,
+        331,
+        797,
+        865
+      ]
+    },
+    {
+      "stem": "f00189_id001_car",
+      "file": "vehicle_detections/f00189_id001_car.jpg",
+      "frame": 189,
+      "time_s": 12.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.924,
+      "box_frame": [
+        433.5,
+        376.0,
+        765.8,
+        823.4
+      ],
+      "crop_frame": [
+        400,
+        331,
+        798,
+        868
+      ]
+    },
+    {
+      "stem": "f00190_id001_car",
+      "file": "vehicle_detections/f00190_id001_car.jpg",
+      "frame": 190,
+      "time_s": 12.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        433.0,
+        376.0,
+        766.2,
+        824.6
+      ],
+      "crop_frame": [
+        399,
+        331,
+        799,
+        869
+      ]
+    },
+    {
+      "stem": "f00191_id001_car",
+      "file": "vehicle_detections/f00191_id001_car.jpg",
+      "frame": 191,
+      "time_s": 12.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        433.1,
+        376.0,
+        766.1,
+        824.2
+      ],
+      "crop_frame": [
+        399,
+        331,
+        799,
+        869
+      ]
+    },
+    {
+      "stem": "f00192_id001_car",
+      "file": "vehicle_detections/f00192_id001_car.jpg",
+      "frame": 192,
+      "time_s": 12.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        432.7,
+        376.0,
+        766.6,
+        825.5
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        870
+      ]
+    },
+    {
+      "stem": "f00193_id001_car",
+      "file": "vehicle_detections/f00193_id001_car.jpg",
+      "frame": 193,
+      "time_s": 12.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        432.7,
+        376.1,
+        766.8,
+        825.7
+      ],
+      "crop_frame": [
+        399,
+        331,
+        800,
+        870
+      ]
+    },
+    {
+      "stem": "f00194_id001_car",
+      "file": "vehicle_detections/f00194_id001_car.jpg",
+      "frame": 194,
+      "time_s": 12.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        433.0,
+        376.1,
+        766.4,
+        824.5
+      ],
+      "crop_frame": [
+        399,
+        331,
+        799,
+        869
+      ]
+    },
+    {
+      "stem": "f00195_id001_car",
+      "file": "vehicle_detections/f00195_id001_car.jpg",
+      "frame": 195,
+      "time_s": 13.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        432.2,
+        376.1,
+        767.2,
+        826.8
+      ],
+      "crop_frame": [
+        398,
+        330,
+        800,
+        871
+      ]
+    },
+    {
+      "stem": "f00196_id001_car",
+      "file": "vehicle_detections/f00196_id001_car.jpg",
+      "frame": 196,
+      "time_s": 13.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        434.1,
+        376.0,
+        766.5,
+        822.5
+      ],
+      "crop_frame": [
+        400,
+        331,
+        799,
+        867
+      ]
+    },
+    {
+      "stem": "f00197_id001_car",
+      "file": "vehicle_detections/f00197_id001_car.jpg",
+      "frame": 197,
+      "time_s": 13.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        434.6,
+        376.0,
+        766.5,
+        821.2
+      ],
+      "crop_frame": [
+        401,
+        331,
+        799,
+        865
+      ]
+    },
+    {
+      "stem": "f00198_id001_car",
+      "file": "vehicle_detections/f00198_id001_car.jpg",
+      "frame": 198,
+      "time_s": 13.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        434.6,
+        376.0,
+        766.9,
+        821.0
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        865
+      ]
+    },
+    {
+      "stem": "f00199_id001_car",
+      "file": "vehicle_detections/f00199_id001_car.jpg",
+      "frame": 199,
+      "time_s": 13.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.933,
+      "box_frame": [
+        434.5,
+        376.0,
+        766.7,
+        820.3
+      ],
+      "crop_frame": [
+        401,
+        331,
+        799,
+        864
+      ]
+    },
+    {
+      "stem": "f00200_id001_car",
+      "file": "vehicle_detections/f00200_id001_car.jpg",
+      "frame": 200,
+      "time_s": 13.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        434.5,
+        376.0,
+        767.1,
+        820.3
+      ],
+      "crop_frame": [
+        401,
+        331,
+        800,
+        864
+      ]
+    },
+    {
+      "stem": "f00201_id001_car",
+      "file": "vehicle_detections/f00201_id001_car.jpg",
+      "frame": 201,
+      "time_s": 13.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        433.8,
+        376.0,
+        767.1,
+        820.9
+      ],
+      "crop_frame": [
+        400,
+        331,
+        800,
+        865
+      ]
+    },
+    {
+      "stem": "f00202_id001_car",
+      "file": "vehicle_detections/f00202_id001_car.jpg",
+      "frame": 202,
+      "time_s": 13.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        433.7,
+        376.0,
+        767.5,
+        821.0
+      ],
+      "crop_frame": [
+        400,
+        331,
+        800,
+        865
+      ]
+    },
+    {
+      "stem": "f00203_id001_car",
+      "file": "vehicle_detections/f00203_id001_car.jpg",
+      "frame": 203,
+      "time_s": 13.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        433.2,
+        376.0,
+        768.0,
+        822.2
+      ],
+      "crop_frame": [
+        399,
+        331,
+        801,
+        866
+      ]
+    },
+    {
+      "stem": "f00204_id001_car",
+      "file": "vehicle_detections/f00204_id001_car.jpg",
+      "frame": 204,
+      "time_s": 13.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        433.2,
+        376.0,
+        768.1,
+        821.9
+      ],
+      "crop_frame": [
+        399,
+        331,
+        801,
+        866
+      ]
+    },
+    {
+      "stem": "f00205_id001_car",
+      "file": "vehicle_detections/f00205_id001_car.jpg",
+      "frame": 205,
+      "time_s": 13.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.928,
+      "box_frame": [
+        433.3,
+        376.0,
+        768.0,
+        821.4
+      ],
+      "crop_frame": [
+        399,
+        331,
+        801,
+        865
+      ]
+    },
+    {
+      "stem": "f00206_id001_car",
+      "file": "vehicle_detections/f00206_id001_car.jpg",
+      "frame": 206,
+      "time_s": 13.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        433.2,
+        376.0,
+        768.1,
+        821.3
+      ],
+      "crop_frame": [
+        399,
+        331,
+        801,
+        865
+      ]
+    },
+    {
+      "stem": "f00207_id001_car",
+      "file": "vehicle_detections/f00207_id001_car.jpg",
+      "frame": 207,
+      "time_s": 13.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.93,
+      "box_frame": [
+        433.2,
+        376.0,
+        768.1,
+        821.2
+      ],
+      "crop_frame": [
+        399,
+        331,
+        801,
+        865
+      ]
+    },
+    {
+      "stem": "f00208_id001_car",
+      "file": "vehicle_detections/f00208_id001_car.jpg",
+      "frame": 208,
+      "time_s": 13.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.927,
+      "box_frame": [
+        432.7,
+        376.0,
+        768.2,
+        821.8
+      ],
+      "crop_frame": [
+        399,
+        331,
+        801,
+        866
+      ]
+    },
+    {
+      "stem": "f00209_id001_car",
+      "file": "vehicle_detections/f00209_id001_car.jpg",
+      "frame": 209,
+      "time_s": 13.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.929,
+      "box_frame": [
+        432.5,
+        376.0,
+        768.1,
+        821.6
+      ],
+      "crop_frame": [
+        398,
+        331,
+        801,
+        866
+      ]
+    },
+    {
+      "stem": "f00210_id001_car",
+      "file": "vehicle_detections/f00210_id001_car.jpg",
+      "frame": 210,
+      "time_s": 14.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        432.4,
+        376.0,
+        768.2,
+        821.7
+      ],
+      "crop_frame": [
+        398,
+        331,
+        801,
+        866
+      ]
+    },
+    {
+      "stem": "f00211_id001_car",
+      "file": "vehicle_detections/f00211_id001_car.jpg",
+      "frame": 211,
+      "time_s": 14.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        431.3,
+        376.0,
+        771.0,
+        827.3
+      ],
+      "crop_frame": [
+        397,
+        330,
+        804,
+        872
+      ]
+    },
+    {
+      "stem": "f00212_id001_car",
+      "file": "vehicle_detections/f00212_id001_car.jpg",
+      "frame": 212,
+      "time_s": 14.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        431.7,
+        376.0,
+        771.4,
+        827.5
+      ],
+      "crop_frame": [
+        397,
+        330,
+        805,
+        872
+      ]
+    },
+    {
+      "stem": "f00213_id001_car",
+      "file": "vehicle_detections/f00213_id001_car.jpg",
+      "frame": 213,
+      "time_s": 14.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        431.8,
+        376.4,
+        771.6,
+        828.3
+      ],
+      "crop_frame": [
+        397,
+        331,
+        805,
+        873
+      ]
+    },
+    {
+      "stem": "f00214_id001_car",
+      "file": "vehicle_detections/f00214_id001_car.jpg",
+      "frame": 214,
+      "time_s": 14.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.917,
+      "box_frame": [
+        431.9,
+        376.1,
+        771.3,
+        827.7
+      ],
+      "crop_frame": [
+        397,
+        330,
+        805,
+        872
+      ]
+    },
+    {
+      "stem": "f00215_id001_car",
+      "file": "vehicle_detections/f00215_id001_car.jpg",
+      "frame": 215,
+      "time_s": 14.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.916,
+      "box_frame": [
+        431.8,
+        376.1,
+        770.8,
+        827.3
+      ],
+      "crop_frame": [
+        397,
+        330,
+        804,
+        872
+      ]
+    },
+    {
+      "stem": "f00216_id001_car",
+      "file": "vehicle_detections/f00216_id001_car.jpg",
+      "frame": 216,
+      "time_s": 14.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        432.0,
+        376.0,
+        770.2,
+        826.2
+      ],
+      "crop_frame": [
+        398,
+        330,
+        804,
+        871
+      ]
+    },
+    {
+      "stem": "f00217_id001_car",
+      "file": "vehicle_detections/f00217_id001_car.jpg",
+      "frame": 217,
+      "time_s": 14.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.91,
+      "box_frame": [
+        432.7,
+        376.2,
+        770.5,
+        826.0
+      ],
+      "crop_frame": [
+        398,
+        331,
+        804,
+        870
+      ]
+    },
+    {
+      "stem": "f00218_id001_car",
+      "file": "vehicle_detections/f00218_id001_car.jpg",
+      "frame": 218,
+      "time_s": 14.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        432.1,
+        376.1,
+        771.9,
+        829.4
+      ],
+      "crop_frame": [
+        398,
+        330,
+        805,
+        874
+      ]
+    },
+    {
+      "stem": "f00219_id001_car",
+      "file": "vehicle_detections/f00219_id001_car.jpg",
+      "frame": 219,
+      "time_s": 14.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        431.4,
+        376.0,
+        772.2,
+        831.4
+      ],
+      "crop_frame": [
+        397,
+        330,
+        806,
+        876
+      ]
+    },
+    {
+      "stem": "f00220_id001_car",
+      "file": "vehicle_detections/f00220_id001_car.jpg",
+      "frame": 220,
+      "time_s": 14.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.911,
+      "box_frame": [
+        432.4,
+        376.3,
+        771.2,
+        829.3
+      ],
+      "crop_frame": [
+        398,
+        331,
+        805,
+        874
+      ]
+    },
+    {
+      "stem": "f00221_id001_car",
+      "file": "vehicle_detections/f00221_id001_car.jpg",
+      "frame": 221,
+      "time_s": 14.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        431.5,
+        376.1,
+        771.3,
+        830.7
+      ],
+      "crop_frame": [
+        397,
+        330,
+        805,
+        876
+      ]
+    },
+    {
+      "stem": "f00222_id001_car",
+      "file": "vehicle_detections/f00222_id001_car.jpg",
+      "frame": 222,
+      "time_s": 14.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        430.1,
+        376.5,
+        772.6,
+        835.7
+      ],
+      "crop_frame": [
+        395,
+        330,
+        806,
+        881
+      ]
+    },
+    {
+      "stem": "f00223_id001_car",
+      "file": "vehicle_detections/f00223_id001_car.jpg",
+      "frame": 223,
+      "time_s": 14.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        428.8,
+        376.2,
+        773.5,
+        839.6
+      ],
+      "crop_frame": [
+        394,
+        329,
+        808,
+        885
+      ]
+    },
+    {
+      "stem": "f00224_id001_car",
+      "file": "vehicle_detections/f00224_id001_car.jpg",
+      "frame": 224,
+      "time_s": 14.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        428.9,
+        376.1,
+        773.5,
+        840.3
+      ],
+      "crop_frame": [
+        394,
+        329,
+        807,
+        886
+      ]
+    },
+    {
+      "stem": "f00225_id001_car",
+      "file": "vehicle_detections/f00225_id001_car.jpg",
+      "frame": 225,
+      "time_s": 15.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        429.6,
+        376.0,
+        773.4,
+        840.0
+      ],
+      "crop_frame": [
+        395,
+        329,
+        807,
+        886
+      ]
+    },
+    {
+      "stem": "f00226_id001_car",
+      "file": "vehicle_detections/f00226_id001_car.jpg",
+      "frame": 226,
+      "time_s": 15.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.926,
+      "box_frame": [
+        429.4,
+        376.0,
+        774.0,
+        842.2
+      ],
+      "crop_frame": [
+        394,
+        329,
+        808,
+        888
+      ]
+    },
+    {
+      "stem": "f00227_id001_car",
+      "file": "vehicle_detections/f00227_id001_car.jpg",
+      "frame": 227,
+      "time_s": 15.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.925,
+      "box_frame": [
+        430.5,
+        376.0,
+        773.1,
+        840.0
+      ],
+      "crop_frame": [
+        396,
+        329,
+        807,
+        886
+      ]
+    },
+    {
+      "stem": "f00228_id001_car",
+      "file": "vehicle_detections/f00228_id001_car.jpg",
+      "frame": 228,
+      "time_s": 15.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.3,
+        376.0,
+        772.2,
+        837.8
+      ],
+      "crop_frame": [
+        397,
+        329,
+        806,
+        883
+      ]
+    },
+    {
+      "stem": "f00229_id001_car",
+      "file": "vehicle_detections/f00229_id001_car.jpg",
+      "frame": 229,
+      "time_s": 15.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.919,
+      "box_frame": [
+        431.7,
+        376.0,
+        771.9,
+        837.2
+      ],
+      "crop_frame": [
+        397,
+        329,
+        805,
+        883
+      ]
+    },
+    {
+      "stem": "f00230_id001_car",
+      "file": "vehicle_detections/f00230_id001_car.jpg",
+      "frame": 230,
+      "time_s": 15.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.92,
+      "box_frame": [
+        433.0,
+        376.0,
+        771.0,
+        834.0
+      ],
+      "crop_frame": [
+        399,
+        330,
+        804,
+        879
+      ]
+    },
+    {
+      "stem": "f00231_id001_car",
+      "file": "vehicle_detections/f00231_id001_car.jpg",
+      "frame": 231,
+      "time_s": 15.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.918,
+      "box_frame": [
+        431.9,
+        376.0,
+        771.9,
+        837.0
+      ],
+      "crop_frame": [
+        397,
+        329,
+        805,
+        883
+      ]
+    },
+    {
+      "stem": "f00232_id001_car",
+      "file": "vehicle_detections/f00232_id001_car.jpg",
+      "frame": 232,
+      "time_s": 15.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        432.1,
+        376.4,
+        771.0,
+        835.8
+      ],
+      "crop_frame": [
+        398,
+        330,
+        804,
+        881
+      ]
+    },
+    {
+      "stem": "f00233_id001_car",
+      "file": "vehicle_detections/f00233_id001_car.jpg",
+      "frame": 233,
+      "time_s": 15.53,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        436.1,
+        376.7,
+        775.2,
+        838.2
+      ],
+      "crop_frame": [
+        402,
+        330,
+        809,
+        884
+      ]
+    },
+    {
+      "stem": "f00234_id001_car",
+      "file": "vehicle_detections/f00234_id001_car.jpg",
+      "frame": 234,
+      "time_s": 15.6,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        440.7,
+        376.8,
+        776.4,
+        835.6
+      ],
+      "crop_frame": [
+        407,
+        330,
+        809,
+        881
+      ]
+    },
+    {
+      "stem": "f00235_id001_car",
+      "file": "vehicle_detections/f00235_id001_car.jpg",
+      "frame": 235,
+      "time_s": 15.67,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.922,
+      "box_frame": [
+        446.5,
+        376.9,
+        780.2,
+        836.3
+      ],
+      "crop_frame": [
+        413,
+        330,
+        813,
+        882
+      ]
+    },
+    {
+      "stem": "f00236_id001_car",
+      "file": "vehicle_detections/f00236_id001_car.jpg",
+      "frame": 236,
+      "time_s": 15.73,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.913,
+      "box_frame": [
+        454.2,
+        376.4,
+        784.1,
+        835.0
+      ],
+      "crop_frame": [
+        421,
+        330,
+        817,
+        880
+      ]
+    },
+    {
+      "stem": "f00237_id001_car",
+      "file": "vehicle_detections/f00237_id001_car.jpg",
+      "frame": 237,
+      "time_s": 15.8,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.908,
+      "box_frame": [
+        459.3,
+        376.2,
+        786.7,
+        836.4
+      ],
+      "crop_frame": [
+        426,
+        330,
+        819,
+        882
+      ]
+    },
+    {
+      "stem": "f00238_id001_car",
+      "file": "vehicle_detections/f00238_id001_car.jpg",
+      "frame": 238,
+      "time_s": 15.87,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.909,
+      "box_frame": [
+        468.4,
+        376.0,
+        787.9,
+        830.6
+      ],
+      "crop_frame": [
+        436,
+        330,
+        819,
+        876
+      ]
+    },
+    {
+      "stem": "f00239_id001_car",
+      "file": "vehicle_detections/f00239_id001_car.jpg",
+      "frame": 239,
+      "time_s": 15.93,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.912,
+      "box_frame": [
+        477.8,
+        376.2,
+        791.7,
+        830.0
+      ],
+      "crop_frame": [
+        446,
+        330,
+        823,
+        875
+      ]
+    },
+    {
+      "stem": "f00240_id001_car",
+      "file": "vehicle_detections/f00240_id001_car.jpg",
+      "frame": 240,
+      "time_s": 16.0,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.906,
+      "box_frame": [
+        483.6,
+        376.1,
+        793.2,
+        831.0
+      ],
+      "crop_frame": [
+        452,
+        330,
+        824,
+        876
+      ]
+    },
+    {
+      "stem": "f00241_id001_car",
+      "file": "vehicle_detections/f00241_id001_car.jpg",
+      "frame": 241,
+      "time_s": 16.07,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.894,
+      "box_frame": [
+        490.9,
+        376.8,
+        795.9,
+        834.2
+      ],
+      "crop_frame": [
+        460,
+        331,
+        826,
+        879
+      ]
+    },
+    {
+      "stem": "f00242_id001_car",
+      "file": "vehicle_detections/f00242_id001_car.jpg",
+      "frame": 242,
+      "time_s": 16.13,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.824,
+      "box_frame": [
+        499.0,
+        376.9,
+        799.4,
+        838.0
+      ],
+      "crop_frame": [
+        469,
+        330,
+        829,
+        884
+      ]
+    },
+    {
+      "stem": "f00243_id001_car",
+      "file": "vehicle_detections/f00243_id001_car.jpg",
+      "frame": 243,
+      "time_s": 16.2,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.758,
+      "box_frame": [
+        502.2,
+        376.4,
+        798.6,
+        841.4
+      ],
+      "crop_frame": [
+        472,
+        329,
+        828,
+        887
+      ]
+    },
+    {
+      "stem": "f00244_id001_car",
+      "file": "vehicle_detections/f00244_id001_car.jpg",
+      "frame": 244,
+      "time_s": 16.27,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.802,
+      "box_frame": [
+        510.8,
+        376.2,
+        802.0,
+        845.9
+      ],
+      "crop_frame": [
+        481,
+        329,
+        831,
+        892
+      ]
+    },
+    {
+      "stem": "f00245_id001_car",
+      "file": "vehicle_detections/f00245_id001_car.jpg",
+      "frame": 245,
+      "time_s": 16.33,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.803,
+      "box_frame": [
+        516.4,
+        376.1,
+        806.4,
+        859.2
+      ],
+      "crop_frame": [
+        487,
+        327,
+        835,
+        907
+      ]
+    },
+    {
+      "stem": "f00246_id001_car",
+      "file": "vehicle_detections/f00246_id001_car.jpg",
+      "frame": 246,
+      "time_s": 16.4,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.812,
+      "box_frame": [
+        524.2,
+        376.7,
+        807.7,
+        865.1
+      ],
+      "crop_frame": [
+        495,
+        327,
+        836,
+        913
+      ]
+    },
+    {
+      "stem": "f00247_id001_car",
+      "file": "vehicle_detections/f00247_id001_car.jpg",
+      "frame": 247,
+      "time_s": 16.47,
+      "track_id": 1,
+      "class": "car",
+      "conf": 0.697,
+      "box_frame": [
+        536.7,
+        376.2,
+        806.1,
+        856.1
+      ],
+      "crop_frame": [
+        509,
+        328,
+        833,
+        904
+      ]
+    },
+    {
+      "stem": "f00249_id002_bus",
+      "file": "vehicle_detections/f00249_id002_bus.jpg",
+      "frame": 249,
+      "time_s": 16.6,
+      "track_id": 2,
+      "class": "bus",
+      "conf": 0.48,
+      "box_frame": [
+        18.3,
+        376.0,
+        773.6,
+        1077.5
+      ],
+      "crop_frame": [
+        0,
+        305,
+        849,
+        1080
+      ]
+    },
+    {
+      "stem": "f00250_id002_bus",
+      "file": "vehicle_detections/f00250_id002_bus.jpg",
+      "frame": 250,
+      "time_s": 16.67,
+      "track_id": 2,
+      "class": "bus",
+      "conf": 0.56,
+      "box_frame": [
+        13.4,
+        376.0,
+        765.5,
+        1074.5
+      ],
+      "crop_frame": [
+        0,
+        306,
+        840,
+        1080
+      ]
+    },
+    {
+      "stem": "f00251_id002_bus",
+      "file": "vehicle_detections/f00251_id002_bus.jpg",
+      "frame": 251,
+      "time_s": 16.73,
+      "track_id": 2,
+      "class": "bus",
+      "conf": 0.384,
+      "box_frame": [
+        6.6,
+        376.0,
+        759.6,
+        1075.1
+      ],
+      "crop_frame": [
+        0,
+        306,
+        834,
+        1080
+      ]
+    },
+    {
+      "stem": "f00253_id002_bus",
+      "file": "vehicle_detections/f00253_id002_bus.jpg",
+      "frame": 253,
+      "time_s": 16.87,
+      "track_id": 2,
+      "class": "bus",
+      "conf": 0.484,
+      "box_frame": [
+        9.6,
+        376.0,
+        759.4,
+        1072.6
+      ],
+      "crop_frame": [
+        0,
+        306,
+        834,
+        1080
+      ]
+    },
+    {
+      "stem": "f00255_id002_bus",
+      "file": "vehicle_detections/f00255_id002_bus.jpg",
+      "frame": 255,
+      "time_s": 17.0,
+      "track_id": 2,
+      "class": "bus",
+      "conf": 0.327,
+      "box_frame": [
+        10.4,
+        376.3,
+        758.8,
+        1072.3
+      ],
+      "crop_frame": [
+        0,
+        306,
+        833,
+        1080
+      ]
+    },
+    {
+      "stem": "f00272_id002_car",
+      "file": "vehicle_detections/f00272_id002_car.jpg",
+      "frame": 272,
+      "time_s": 18.13,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.498,
+      "box_frame": [
+        58.4,
+        376.5,
+        792.7,
+        1076.9
+      ],
+      "crop_frame": [
+        0,
+        306,
+        866,
+        1080
+      ]
+    },
+    {
+      "stem": "f00273_id002_car",
+      "file": "vehicle_detections/f00273_id002_car.jpg",
+      "frame": 273,
+      "time_s": 18.2,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.431,
+      "box_frame": [
+        62.6,
+        376.4,
+        785.0,
+        1077.2
+      ],
+      "crop_frame": [
+        0,
+        306,
+        857,
+        1080
+      ]
+    },
+    {
+      "stem": "f00274_id002_car",
+      "file": "vehicle_detections/f00274_id002_car.jpg",
+      "frame": 274,
+      "time_s": 18.27,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.599,
+      "box_frame": [
+        66.9,
+        376.1,
+        779.4,
+        1075.3
+      ],
+      "crop_frame": [
+        0,
+        306,
+        850,
+        1080
+      ]
+    },
+    {
+      "stem": "f00275_id002_car",
+      "file": "vehicle_detections/f00275_id002_car.jpg",
+      "frame": 275,
+      "time_s": 18.33,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.747,
+      "box_frame": [
+        74.7,
+        376.0,
+        780.2,
+        1075.7
+      ],
+      "crop_frame": [
+        4,
+        306,
+        850,
+        1080
+      ]
+    },
+    {
+      "stem": "f00276_id002_car",
+      "file": "vehicle_detections/f00276_id002_car.jpg",
+      "frame": 276,
+      "time_s": 18.4,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.663,
+      "box_frame": [
+        79.7,
+        376.4,
+        778.3,
+        1074.0
+      ],
+      "crop_frame": [
+        9,
+        306,
+        848,
+        1080
+      ]
+    },
+    {
+      "stem": "f00277_id002_car",
+      "file": "vehicle_detections/f00277_id002_car.jpg",
+      "frame": 277,
+      "time_s": 18.47,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.815,
+      "box_frame": [
+        80.7,
+        376.1,
+        773.8,
+        1073.6
+      ],
+      "crop_frame": [
+        11,
+        306,
+        843,
+        1080
+      ]
+    },
+    {
+      "stem": "f00278_id002_car",
+      "file": "vehicle_detections/f00278_id002_car.jpg",
+      "frame": 278,
+      "time_s": 18.53,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.838,
+      "box_frame": [
+        82.9,
+        376.4,
+        772.2,
+        1076.2
+      ],
+      "crop_frame": [
+        13,
+        306,
+        841,
+        1080
+      ]
+    },
+    {
+      "stem": "f00279_id002_car",
+      "file": "vehicle_detections/f00279_id002_car.jpg",
+      "frame": 279,
+      "time_s": 18.6,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.854,
+      "box_frame": [
+        81.1,
+        376.1,
+        766.6,
+        1075.8
+      ],
+      "crop_frame": [
+        12,
+        306,
+        835,
+        1080
+      ]
+    },
+    {
+      "stem": "f00280_id002_car",
+      "file": "vehicle_detections/f00280_id002_car.jpg",
+      "frame": 280,
+      "time_s": 18.67,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.81,
+      "box_frame": [
+        79.0,
+        378.1,
+        760.4,
+        1074.3
+      ],
+      "crop_frame": [
+        10,
+        308,
+        828,
+        1080
+      ]
+    },
+    {
+      "stem": "f00281_id002_car",
+      "file": "vehicle_detections/f00281_id002_car.jpg",
+      "frame": 281,
+      "time_s": 18.73,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.675,
+      "box_frame": [
+        75.9,
+        378.1,
+        757.4,
+        1074.8
+      ],
+      "crop_frame": [
+        7,
+        308,
+        825,
+        1080
+      ]
+    },
+    {
+      "stem": "f00282_id002_car",
+      "file": "vehicle_detections/f00282_id002_car.jpg",
+      "frame": 282,
+      "time_s": 18.8,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.712,
+      "box_frame": [
+        71.1,
+        377.4,
+        754.2,
+        1074.6
+      ],
+      "crop_frame": [
+        2,
+        307,
+        822,
+        1080
+      ]
+    },
+    {
+      "stem": "f00283_id002_car",
+      "file": "vehicle_detections/f00283_id002_car.jpg",
+      "frame": 283,
+      "time_s": 18.87,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.693,
+      "box_frame": [
+        70.3,
+        377.6,
+        751.1,
+        1073.1
+      ],
+      "crop_frame": [
+        2,
+        308,
+        819,
+        1080
+      ]
+    },
+    {
+      "stem": "f00284_id002_car",
+      "file": "vehicle_detections/f00284_id002_car.jpg",
+      "frame": 284,
+      "time_s": 18.93,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.707,
+      "box_frame": [
+        68.7,
+        378.1,
+        749.2,
+        1074.0
+      ],
+      "crop_frame": [
+        0,
+        308,
+        817,
+        1080
+      ]
+    },
+    {
+      "stem": "f00285_id002_car",
+      "file": "vehicle_detections/f00285_id002_car.jpg",
+      "frame": 285,
+      "time_s": 19.0,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.625,
+      "box_frame": [
+        61.5,
+        377.7,
+        743.9,
+        1073.6
+      ],
+      "crop_frame": [
+        0,
+        308,
+        812,
+        1080
+      ]
+    },
+    {
+      "stem": "f00286_id002_car",
+      "file": "vehicle_detections/f00286_id002_car.jpg",
+      "frame": 286,
+      "time_s": 19.07,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.888,
+      "box_frame": [
+        66.3,
+        377.5,
+        747.3,
+        1074.4
+      ],
+      "crop_frame": [
+        0,
+        307,
+        815,
+        1080
+      ]
+    },
+    {
+      "stem": "f00287_id002_car",
+      "file": "vehicle_detections/f00287_id002_car.jpg",
+      "frame": 287,
+      "time_s": 19.13,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.885,
+      "box_frame": [
+        51.1,
+        377.6,
+        734.8,
+        1074.8
+      ],
+      "crop_frame": [
+        0,
+        307,
+        803,
+        1080
+      ]
+    },
+    {
+      "stem": "f00288_id002_car",
+      "file": "vehicle_detections/f00288_id002_car.jpg",
+      "frame": 288,
+      "time_s": 19.2,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.914,
+      "box_frame": [
+        43.9,
+        377.9,
+        729.5,
+        1073.7
+      ],
+      "crop_frame": [
+        0,
+        308,
+        798,
+        1080
+      ]
+    },
+    {
+      "stem": "f00289_id002_car",
+      "file": "vehicle_detections/f00289_id002_car.jpg",
+      "frame": 289,
+      "time_s": 19.27,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.945,
+      "box_frame": [
+        64.5,
+        377.9,
+        745.5,
+        1072.2
+      ],
+      "crop_frame": [
+        0,
+        308,
+        813,
+        1080
+      ]
+    },
+    {
+      "stem": "f00290_id002_car",
+      "file": "vehicle_detections/f00290_id002_car.jpg",
+      "frame": 290,
+      "time_s": 19.33,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.931,
+      "box_frame": [
+        67.5,
+        377.4,
+        747.5,
+        1072.7
+      ],
+      "crop_frame": [
+        0,
+        307,
+        815,
+        1080
+      ]
+    },
+    {
+      "stem": "f00291_id002_car",
+      "file": "vehicle_detections/f00291_id002_car.jpg",
+      "frame": 291,
+      "time_s": 19.4,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.932,
+      "box_frame": [
+        69.1,
+        377.4,
+        747.7,
+        1072.8
+      ],
+      "crop_frame": [
+        1,
+        307,
+        815,
+        1080
+      ]
+    },
+    {
+      "stem": "f00292_id002_car",
+      "file": "vehicle_detections/f00292_id002_car.jpg",
+      "frame": 292,
+      "time_s": 19.47,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.936,
+      "box_frame": [
+        65.5,
+        377.3,
+        744.1,
+        1072.6
+      ],
+      "crop_frame": [
+        0,
+        307,
+        811,
+        1080
+      ]
+    },
+    {
+      "stem": "f00293_id002_car",
+      "file": "vehicle_detections/f00293_id002_car.jpg",
+      "frame": 293,
+      "time_s": 19.53,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.915,
+      "box_frame": [
+        59.2,
+        377.0,
+        740.1,
+        1072.8
+      ],
+      "crop_frame": [
+        0,
+        307,
+        808,
+        1080
+      ]
+    },
+    {
+      "stem": "f00294_id002_car",
+      "file": "vehicle_detections/f00294_id002_car.jpg",
+      "frame": 294,
+      "time_s": 19.6,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.886,
+      "box_frame": [
+        55.8,
+        377.2,
+        738.5,
+        1071.9
+      ],
+      "crop_frame": [
+        0,
+        307,
+        806,
+        1080
+      ]
+    },
+    {
+      "stem": "f00295_id002_car",
+      "file": "vehicle_detections/f00295_id002_car.jpg",
+      "frame": 295,
+      "time_s": 19.67,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.829,
+      "box_frame": [
+        51.1,
+        377.4,
+        739.0,
+        1071.9
+      ],
+      "crop_frame": [
+        0,
+        307,
+        807,
+        1080
+      ]
+    },
+    {
+      "stem": "f00296_id002_car",
+      "file": "vehicle_detections/f00296_id002_car.jpg",
+      "frame": 296,
+      "time_s": 19.73,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.87,
+      "box_frame": [
+        37.5,
+        377.4,
+        729.9,
+        1071.4
+      ],
+      "crop_frame": [
+        0,
+        307,
+        799,
+        1080
+      ]
+    },
+    {
+      "stem": "f00297_id002_car",
+      "file": "vehicle_detections/f00297_id002_car.jpg",
+      "frame": 297,
+      "time_s": 19.8,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.829,
+      "box_frame": [
+        29.0,
+        376.6,
+        727.7,
+        1073.5
+      ],
+      "crop_frame": [
+        0,
+        306,
+        797,
+        1080
+      ]
+    },
+    {
+      "stem": "f00298_id002_car",
+      "file": "vehicle_detections/f00298_id002_car.jpg",
+      "frame": 298,
+      "time_s": 19.87,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.796,
+      "box_frame": [
+        23.8,
+        376.7,
+        726.8,
+        1074.2
+      ],
+      "crop_frame": [
+        0,
+        306,
+        797,
+        1080
+      ]
+    },
+    {
+      "stem": "f00299_id002_car",
+      "file": "vehicle_detections/f00299_id002_car.jpg",
+      "frame": 299,
+      "time_s": 19.93,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.706,
+      "box_frame": [
+        23.7,
+        377.8,
+        728.3,
+        1073.9
+      ],
+      "crop_frame": [
+        0,
+        308,
+        798,
+        1080
+      ]
+    },
+    {
+      "stem": "f00300_id002_car",
+      "file": "vehicle_detections/f00300_id002_car.jpg",
+      "frame": 300,
+      "time_s": 20.0,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.686,
+      "box_frame": [
+        20.5,
+        378.0,
+        727.3,
+        1073.4
+      ],
+      "crop_frame": [
+        0,
+        308,
+        797,
+        1080
+      ]
+    },
+    {
+      "stem": "f00301_id002_car",
+      "file": "vehicle_detections/f00301_id002_car.jpg",
+      "frame": 301,
+      "time_s": 20.07,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.588,
+      "box_frame": [
+        22.2,
+        378.8,
+        731.1,
+        1073.3
+      ],
+      "crop_frame": [
+        0,
+        309,
+        802,
+        1080
+      ]
+    },
+    {
+      "stem": "f00302_id002_car",
+      "file": "vehicle_detections/f00302_id002_car.jpg",
+      "frame": 302,
+      "time_s": 20.13,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.725,
+      "box_frame": [
+        22.7,
+        381.6,
+        732.3,
+        1073.9
+      ],
+      "crop_frame": [
+        0,
+        312,
+        803,
+        1080
+      ]
+    },
+    {
+      "stem": "f00303_id002_car",
+      "file": "vehicle_detections/f00303_id002_car.jpg",
+      "frame": 303,
+      "time_s": 20.2,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.862,
+      "box_frame": [
+        22.8,
+        383.8,
+        732.2,
+        1073.0
+      ],
+      "crop_frame": [
+        0,
+        314,
+        803,
+        1080
+      ]
+    },
+    {
+      "stem": "f00304_id002_car",
+      "file": "vehicle_detections/f00304_id002_car.jpg",
+      "frame": 304,
+      "time_s": 20.27,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.775,
+      "box_frame": [
+        20.5,
+        388.5,
+        729.3,
+        1073.9
+      ],
+      "crop_frame": [
+        0,
+        319,
+        800,
+        1080
+      ]
+    },
+    {
+      "stem": "f00305_id002_car",
+      "file": "vehicle_detections/f00305_id002_car.jpg",
+      "frame": 305,
+      "time_s": 20.33,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.779,
+      "box_frame": [
+        19.3,
+        390.6,
+        730.0,
+        1074.8
+      ],
+      "crop_frame": [
+        0,
+        322,
+        801,
+        1080
+      ]
+    },
+    {
+      "stem": "f00306_id002_car",
+      "file": "vehicle_detections/f00306_id002_car.jpg",
+      "frame": 306,
+      "time_s": 20.4,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.671,
+      "box_frame": [
+        17.3,
+        389.3,
+        731.7,
+        1074.9
+      ],
+      "crop_frame": [
+        0,
+        320,
+        803,
+        1080
+      ]
+    },
+    {
+      "stem": "f00307_id002_car",
+      "file": "vehicle_detections/f00307_id002_car.jpg",
+      "frame": 307,
+      "time_s": 20.47,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.675,
+      "box_frame": [
+        16.8,
+        392.3,
+        730.2,
+        1074.7
+      ],
+      "crop_frame": [
+        0,
+        324,
+        801,
+        1080
+      ]
+    },
+    {
+      "stem": "f00308_id002_car",
+      "file": "vehicle_detections/f00308_id002_car.jpg",
+      "frame": 308,
+      "time_s": 20.53,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.737,
+      "box_frame": [
+        19.9,
+        398.5,
+        729.9,
+        1074.0
+      ],
+      "crop_frame": [
+        0,
+        330,
+        800,
+        1080
+      ]
+    },
+    {
+      "stem": "f00309_id002_car",
+      "file": "vehicle_detections/f00309_id002_car.jpg",
+      "frame": 309,
+      "time_s": 20.6,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.646,
+      "box_frame": [
+        20.5,
+        394.9,
+        737.7,
+        1074.3
+      ],
+      "crop_frame": [
+        0,
+        326,
+        809,
+        1080
+      ]
+    },
+    {
+      "stem": "f00310_id002_car",
+      "file": "vehicle_detections/f00310_id002_car.jpg",
+      "frame": 310,
+      "time_s": 20.67,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.455,
+      "box_frame": [
+        24.5,
+        398.8,
+        742.6,
+        1074.9
+      ],
+      "crop_frame": [
+        0,
+        331,
+        814,
+        1080
+      ]
+    },
+    {
+      "stem": "f00312_id002_car",
+      "file": "vehicle_detections/f00312_id002_car.jpg",
+      "frame": 312,
+      "time_s": 20.8,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.334,
+      "box_frame": [
+        23.2,
+        402.6,
+        746.8,
+        1075.3
+      ],
+      "crop_frame": [
+        0,
+        335,
+        819,
+        1080
+      ]
+    },
+    {
+      "stem": "f00313_id002_car",
+      "file": "vehicle_detections/f00313_id002_car.jpg",
+      "frame": 313,
+      "time_s": 20.87,
+      "track_id": 2,
+      "class": "car",
+      "conf": 0.324,
+      "box_frame": [
+        23.5,
+        406.3,
+        747.5,
+        1075.2
+      ],
+      "crop_frame": [
+        0,
+        339,
+        819,
+        1080
+      ]
+    },
+    {
+      "stem": "f00342_id003_car",
+      "file": "vehicle_detections/f00342_id003_car.jpg",
+      "frame": 342,
+      "time_s": 22.8,
+      "track_id": 3,
+      "class": "car",
+      "conf": 0.403,
+      "box_frame": [
+        0.0,
+        484.8,
+        207.9,
+        1073.9
+      ],
+      "crop_frame": [
+        0,
+        425,
+        228,
+        1080
+      ]
+    },
+    {
+      "stem": "f00346_id003_car",
+      "file": "vehicle_detections/f00346_id003_car.jpg",
+      "frame": 346,
+      "time_s": 23.07,
+      "track_id": 3,
+      "class": "car",
+      "conf": 0.596,
+      "box_frame": [
+        0.0,
+        491.0,
+        182.2,
+        1071.6
+      ],
+      "crop_frame": [
+        0,
+        432,
+        200,
+        1080
+      ]
+    },
+    {
+      "stem": "f00476_id006_car",
+      "file": "vehicle_detections/f00476_id006_car.jpg",
+      "frame": 476,
+      "time_s": 31.73,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.697,
+      "box_frame": [
+        804.4,
+        376.8,
+        898.4,
+        504.8
+      ],
+      "crop_frame": [
+        795,
+        363,
+        907,
+        517
+      ]
+    },
+    {
+      "stem": "f00477_id006_car",
+      "file": "vehicle_detections/f00477_id006_car.jpg",
+      "frame": 477,
+      "time_s": 31.8,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.766,
+      "box_frame": [
+        797.1,
+        376.2,
+        891.7,
+        504.1
+      ],
+      "crop_frame": [
+        787,
+        363,
+        901,
+        516
+      ]
+    },
+    {
+      "stem": "f00478_id006_car",
+      "file": "vehicle_detections/f00478_id006_car.jpg",
+      "frame": 478,
+      "time_s": 31.87,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.725,
+      "box_frame": [
+        786.1,
+        376.3,
+        879.1,
+        499.6
+      ],
+      "crop_frame": [
+        776,
+        363,
+        888,
+        511
+      ]
+    },
+    {
+      "stem": "f00479_id006_car",
+      "file": "vehicle_detections/f00479_id006_car.jpg",
+      "frame": 479,
+      "time_s": 31.93,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.422,
+      "box_frame": [
+        777.9,
+        376.2,
+        869.3,
+        493.1
+      ],
+      "crop_frame": [
+        768,
+        364,
+        878,
+        504
+      ]
+    },
+    {
+      "stem": "f00480_id006_car",
+      "file": "vehicle_detections/f00480_id006_car.jpg",
+      "frame": 480,
+      "time_s": 32.0,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.35,
+      "box_frame": [
+        773.4,
+        376.5,
+        865.1,
+        488.6
+      ],
+      "crop_frame": [
+        764,
+        365,
+        874,
+        499
+      ]
+    },
+    {
+      "stem": "f00481_id006_car",
+      "file": "vehicle_detections/f00481_id006_car.jpg",
+      "frame": 481,
+      "time_s": 32.07,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.502,
+      "box_frame": [
+        761.0,
+        376.6,
+        866.3,
+        500.2
+      ],
+      "crop_frame": [
+        750,
+        364,
+        876,
+        512
+      ]
+    },
+    {
+      "stem": "f00482_id006_car",
+      "file": "vehicle_detections/f00482_id006_car.jpg",
+      "frame": 482,
+      "time_s": 32.13,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.524,
+      "box_frame": [
+        749.4,
+        376.3,
+        863.7,
+        504.1
+      ],
+      "crop_frame": [
+        737,
+        363,
+        875,
+        516
+      ]
+    },
+    {
+      "stem": "f00483_id006_car",
+      "file": "vehicle_detections/f00483_id006_car.jpg",
+      "frame": 483,
+      "time_s": 32.2,
+      "track_id": 6,
+      "class": "car",
+      "conf": 0.334,
+      "box_frame": [
+        743.2,
+        376.3,
+        864.2,
+        505.0
+      ],
+      "crop_frame": [
+        731,
+        363,
+        876,
+        517
+      ]
+    },
+    {
+      "stem": "f01200_id008_car",
+      "file": "vehicle_detections/f01200_id008_car.jpg",
+      "frame": 1200,
+      "time_s": 80.0,
+      "track_id": 8,
+      "class": "car",
+      "conf": 0.497,
+      "box_frame": [
+        786.9,
+        376.3,
+        901.6,
+        503.0
+      ],
+      "crop_frame": [
+        775,
+        363,
+        913,
+        515
+      ]
+    },
+    {
+      "stem": "f01201_id008_car",
+      "file": "vehicle_detections/f01201_id008_car.jpg",
+      "frame": 1201,
+      "time_s": 80.07,
+      "track_id": 8,
+      "class": "car",
+      "conf": 0.463,
+      "box_frame": [
+        776.0,
+        376.5,
+        894.5,
+        506.7
+      ],
+      "crop_frame": [
+        764,
+        363,
+        906,
+        519
+      ]
+    },
+    {
+      "stem": "f01203_id008_car",
+      "file": "vehicle_detections/f01203_id008_car.jpg",
+      "frame": 1203,
+      "time_s": 80.2,
+      "track_id": 8,
+      "class": "car",
+      "conf": 0.303,
+      "box_frame": [
+        761.0,
+        377.0,
+        883.4,
+        507.9
+      ],
+      "crop_frame": [
+        748,
+        363,
+        895,
+        520
+      ]
+    },
+    {
+      "stem": "f01204_id008_car",
+      "file": "vehicle_detections/f01204_id008_car.jpg",
+      "frame": 1204,
+      "time_s": 80.27,
+      "track_id": 8,
+      "class": "car",
+      "conf": 0.415,
+      "box_frame": [
+        753.1,
+        377.1,
+        874.1,
+        502.7
+      ],
+      "crop_frame": [
+        740,
+        364,
+        886,
+        515
+      ]
+    },
+    {
+      "stem": "f01205_id008_car",
+      "file": "vehicle_detections/f01205_id008_car.jpg",
+      "frame": 1205,
+      "time_s": 80.33,
+      "track_id": 8,
+      "class": "car",
+      "conf": 0.341,
+      "box_frame": [
+        753.1,
+        376.9,
+        874.0,
+        498.6
+      ],
+      "crop_frame": [
+        740,
+        364,
+        886,
+        510
+      ]
+    },
+    {
+      "stem": "f01207_id008_car",
+      "file": "vehicle_detections/f01207_id008_car.jpg",
+      "frame": 1207,
+      "time_s": 80.47,
+      "track_id": 8,
+      "class": "car",
+      "conf": 0.33,
+      "box_frame": [
+        741.9,
+        376.8,
+        879.8,
+        508.6
+      ],
+      "crop_frame": [
+        728,
+        363,
+        893,
+        521
+      ]
+    }
+  ]
+}
